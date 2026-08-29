@@ -1,1 +1,2209 @@
-{"sources":[{"type":"single","resource":"minecraft:required/ui/menu_items","sprite":"minecraft:required/ui/menu_items"},{"type":"single","resource":"minecraft:required/recipe_stonecutter","sprite":"minecraft:required/recipe_stonecutter"},{"type":"single","resource":"minecraft:required/recipe_showcase","sprite":"minecraft:required/recipe_showcase"},{"type":"single","resource":"minecraft:required/particle","sprite":"minecraft:required/particle"},{"type":"single","resource":"minecraft:required/ascii_offset","sprite":"minecraft:required/ascii_offset"},{"type":"single","resource":"minecraft:required/arrow_previous_icon","sprite":"minecraft:required/arrow_previous_icon"},{"type":"single","resource":"minecraft:required/arrow_next_icon","sprite":"minecraft:required/arrow_next_icon"},{"type":"single","resource":"cpvp:required/ui/menu_items_gems","sprite":"cpvp:required/ui/menu_items_gems"},{"type":"single","resource":"cpvp:required/ui/menu_items","sprite":"cpvp:required/ui/menu_items"},{"type":"single","resource":"cpvp:required/ui/menu_banner","sprite":"cpvp:required/ui/menu_banner"},{"type":"single","resource":"cpvp:required/recipe_stonecutter","sprite":"cpvp:required/recipe_stonecutter"},{"type":"single","resource":"cpvp:required/recipe_showcase","sprite":"cpvp:required/recipe_showcase"},{"type":"single","resource":"cpvp:required/particle","sprite":"cpvp:required/particle"},{"type":"single","resource":"cpvp:required/null","sprite":"cpvp:required/null"},{"type":"single","resource":"cpvp:required/logo","sprite":"cpvp:required/logo"},{"type":"single","resource":"cpvp:required/exit_icon","sprite":"cpvp:required/exit_icon"},{"type":"single","resource":"cpvp:required/ascii_offset","sprite":"cpvp:required/ascii_offset"},{"type":"single","resource":"cpvp:required/arrow_previous_icon","sprite":"cpvp:required/arrow_previous_icon"},{"type":"single","resource":"cpvp:required/arrow_next_icon","sprite":"cpvp:required/arrow_next_icon"},{"type":"single","resource":"cpvp:items/totemvoucher7","sprite":"cpvp:items/totemvoucher7"},{"type":"single","resource":"cpvp:items/totemvoucher4","sprite":"cpvp:items/totemvoucher4"},{"type":"single","resource":"cpvp:items/totem_voucher","sprite":"cpvp:items/totem_voucher"},{"type":"single","resource":"cpvp:items/rebootcard","sprite":"cpvp:items/rebootcard"},{"type":"single","resource":"cpvp:items/reboot","sprite":"cpvp:items/reboot"},{"type":"single","resource":"cpvp:hud/maps/map3","sprite":"cpvp:hud/maps/map3"},{"type":"single","resource":"cpvp:hud/maps/map2","sprite":"cpvp:hud/maps/map2"},{"type":"single","resource":"cpvp:hud/maps/drops","sprite":"cpvp:hud/maps/drops"},{"type":"single","resource":"cpvp:hats_expansion/ufo_hat_dyed","sprite":"cpvp:hats_expansion/ufo_hat_dyed"},{"type":"single","resource":"cpvp:hats_expansion/ufo_hat","sprite":"cpvp:hats_expansion/ufo_hat"},{"type":"single","resource":"cpvp:hats_expansion/tv_head_dyed","sprite":"cpvp:hats_expansion/tv_head_dyed"},{"type":"single","resource":"cpvp:hats_expansion/tv_head","sprite":"cpvp:hats_expansion/tv_head"},{"type":"single","resource":"cpvp:hats_expansion/straw_hat_dyed","sprite":"cpvp:hats_expansion/straw_hat_dyed"},{"type":"single","resource":"cpvp:hats_expansion/straw_hat","sprite":"cpvp:hats_expansion/straw_hat"},{"type":"single","resource":"cpvp:hats_expansion/sombrero_dyed","sprite":"cpvp:hats_expansion/sombrero_dyed"},{"type":"single","resource":"cpvp:hats_expansion/sombrero","sprite":"cpvp:hats_expansion/sombrero"},{"type":"single","resource":"cpvp:hats_expansion/sensei_dyed","sprite":"cpvp:hats_expansion/sensei_dyed"},{"type":"single","resource":"cpvp:hats_expansion/sensei","sprite":"cpvp:hats_expansion/sensei"},{"type":"single","resource":"cpvp:hats_expansion/jellyfish_hat_dyed","sprite":"cpvp:hats_expansion/jellyfish_hat_dyed"},{"type":"single","resource":"cpvp:hats_expansion/jellyfish_hat","sprite":"cpvp:hats_expansion/jellyfish_hat"},{"type":"single","resource":"cpvp:hats_expansion/hard_hat","sprite":"cpvp:hats_expansion/hard_hat"},{"type":"single","resource":"cpvp:hats_expansion/frog_hat_dyed","sprite":"cpvp:hats_expansion/frog_hat_dyed"},{"type":"single","resource":"cpvp:hats_expansion/frog_hat","sprite":"cpvp:hats_expansion/frog_hat"},{"type":"single","resource":"cpvp:hats_expansion/fedora_dyed","sprite":"cpvp:hats_expansion/fedora_dyed"},{"type":"single","resource":"cpvp:hats_expansion/fedora","sprite":"cpvp:hats_expansion/fedora"},{"type":"single","resource":"cpvp:hats_expansion/cardboard_box","sprite":"cpvp:hats_expansion/cardboard_box"},{"type":"single","resource":"cpvp:hats_expansion/baseball_cap_dyed","sprite":"cpvp:hats_expansion/baseball_cap_dyed"},{"type":"single","resource":"cpvp:hats_expansion/baseball_cap","sprite":"cpvp:hats_expansion/baseball_cap"},{"type":"single","resource":"cpvp:hats_expansion/axolotl_hat_dyed","sprite":"cpvp:hats_expansion/axolotl_hat_dyed"},{"type":"single","resource":"cpvp:hats_expansion/axolotl_hat","sprite":"cpvp:hats_expansion/axolotl_hat"},{"type":"single","resource":"cpvp:hats_expansion/amongus_head_dyed","sprite":"cpvp:hats_expansion/amongus_head_dyed"},{"type":"single","resource":"cpvp:hats_expansion/amongus_head","sprite":"cpvp:hats_expansion/amongus_head"},{"type":"single","resource":"cpvp:hats_expansion/adventurer_hat_dyed","sprite":"cpvp:hats_expansion/adventurer_hat_dyed"},{"type":"single","resource":"cpvp:hats_expansion/adventurer_hat","sprite":"cpvp:hats_expansion/adventurer_hat"},{"type":"single","resource":"cpvp:exlr8_hats/gradcap","sprite":"cpvp:exlr8_hats/gradcap"},{"type":"single","resource":"cpvp:exlr8_hats/crown","sprite":"cpvp:exlr8_hats/crown"},{"type":"single","resource":"cpvp:exlr8_cosmetics/witch_hat","sprite":"cpvp:exlr8_cosmetics/witch_hat"},{"type":"single","resource":"cpvp:exlr8_cosmetics/welding_mask","sprite":"cpvp:exlr8_cosmetics/welding_mask"},{"type":"single","resource":"cpvp:exlr8_cosmetics/vr_headset","sprite":"cpvp:exlr8_cosmetics/vr_headset"},{"type":"single","resource":"cpvp:exlr8_cosmetics/viking_helmet","sprite":"cpvp:exlr8_cosmetics/viking_helmet"},{"type":"single","resource":"cpvp:exlr8_cosmetics/traffic_light","sprite":"cpvp:exlr8_cosmetics/traffic_light"},{"type":"single","resource":"cpvp:exlr8_cosmetics/traffic_cone","sprite":"cpvp:exlr8_cosmetics/traffic_cone"},{"type":"single","resource":"cpvp:exlr8_cosmetics/sushi_roll","sprite":"cpvp:exlr8_cosmetics/sushi_roll"},{"type":"single","resource":"cpvp:exlr8_cosmetics/soap_bubble","sprite":"cpvp:exlr8_cosmetics/soap_bubble"},{"type":"single","resource":"cpvp:exlr8_cosmetics/snow_globe","sprite":"cpvp:exlr8_cosmetics/snow_globe"},{"type":"single","resource":"cpvp:exlr8_cosmetics/snorkel_mask","sprite":"cpvp:exlr8_cosmetics/snorkel_mask"},{"type":"single","resource":"cpvp:exlr8_cosmetics/snail_shell","sprite":"cpvp:exlr8_cosmetics/snail_shell"},{"type":"single","resource":"cpvp:exlr8_cosmetics/shark_hat","sprite":"cpvp:exlr8_cosmetics/shark_hat"},{"type":"single","resource":"cpvp:exlr8_cosmetics/saturn_rings","sprite":"cpvp:exlr8_cosmetics/saturn_rings"},{"type":"single","resource":"cpvp:exlr8_cosmetics/rain_cloud","sprite":"cpvp:exlr8_cosmetics/rain_cloud"},{"type":"single","resource":"cpvp:exlr8_cosmetics/radar_dish","sprite":"cpvp:exlr8_cosmetics/radar_dish"},{"type":"single","resource":"cpvp:exlr8_cosmetics/propeller_cap","sprite":"cpvp:exlr8_cosmetics/propeller_cap"},{"type":"single","resource":"cpvp:exlr8_cosmetics/police_cap","sprite":"cpvp:exlr8_cosmetics/police_cap"},{"type":"single","resource":"cpvp:exlr8_cosmetics/plague_doctor","sprite":"cpvp:exlr8_cosmetics/plague_doctor"},{"type":"single","resource":"cpvp:exlr8_cosmetics/pizza_slice","sprite":"cpvp:exlr8_cosmetics/pizza_slice"},{"type":"single","resource":"cpvp:exlr8_cosmetics/pilot_cap","sprite":"cpvp:exlr8_cosmetics/pilot_cap"},{"type":"single","resource":"cpvp:exlr8_cosmetics/party_cone","sprite":"cpvp:exlr8_cosmetics/party_cone"},{"type":"single","resource":"cpvp:exlr8_cosmetics/orbiting_moon","sprite":"cpvp:exlr8_cosmetics/orbiting_moon"},{"type":"single","resource":"cpvp:exlr8_cosmetics/miner_hat","sprite":"cpvp:exlr8_cosmetics/miner_hat"},{"type":"single","resource":"cpvp:exlr8_cosmetics/loading_spinner","sprite":"cpvp:exlr8_cosmetics/loading_spinner"},{"type":"single","resource":"cpvp:exlr8_cosmetics/knight_helmet","sprite":"cpvp:exlr8_cosmetics/knight_helmet"},{"type":"single","resource":"cpvp:exlr8_cosmetics/headphones","sprite":"cpvp:exlr8_cosmetics/headphones"},{"type":"single","resource":"cpvp:exlr8_cosmetics/halo","sprite":"cpvp:exlr8_cosmetics/halo"},{"type":"single","resource":"cpvp:exlr8_cosmetics/gas_mask","sprite":"cpvp:exlr8_cosmetics/gas_mask"},{"type":"single","resource":"cpvp:exlr8_cosmetics/fox","sprite":"cpvp:exlr8_cosmetics/fox"},{"type":"single","resource":"cpvp:exlr8_cosmetics/football_helmet","sprite":"cpvp:exlr8_cosmetics/football_helmet"},{"type":"single","resource":"cpvp:exlr8_cosmetics/flower_crown","sprite":"cpvp:exlr8_cosmetics/flower_crown"},{"type":"single","resource":"cpvp:exlr8_cosmetics/fishbowl","sprite":"cpvp:exlr8_cosmetics/fishbowl"},{"type":"single","resource":"cpvp:exlr8_cosmetics/firefly_jar","sprite":"cpvp:exlr8_cosmetics/firefly_jar"},{"type":"single","resource":"cpvp:exlr8_cosmetics/end_crystal_hat_caged","sprite":"cpvp:exlr8_cosmetics/end_crystal_hat_caged"},{"type":"single","resource":"cpvp:exlr8_cosmetics/end_crystal_hat","sprite":"cpvp:exlr8_cosmetics/end_crystal_hat"},{"type":"single","resource":"cpvp:exlr8_cosmetics/devil_horns","sprite":"cpvp:exlr8_cosmetics/devil_horns"},{"type":"single","resource":"cpvp:exlr8_cosmetics/deep_sea_diver","sprite":"cpvp:exlr8_cosmetics/deep_sea_diver"},{"type":"single","resource":"cpvp:exlr8_cosmetics/crystal_crown","sprite":"cpvp:exlr8_cosmetics/crystal_crown"},{"type":"single","resource":"cpvp:exlr8_cosmetics/crab","sprite":"cpvp:exlr8_cosmetics/crab"},{"type":"single","resource":"cpvp:exlr8_cosmetics/chef_hat","sprite":"cpvp:exlr8_cosmetics/chef_hat"},{"type":"single","resource":"cpvp:exlr8_cosmetics/cat_ears","sprite":"cpvp:exlr8_cosmetics/cat_ears"},{"type":"single","resource":"cpvp:exlr8_cosmetics/cardboard_crown","sprite":"cpvp:exlr8_cosmetics/cardboard_crown"},{"type":"single","resource":"cpvp:exlr8_cosmetics/calibration_ruler","sprite":"cpvp:exlr8_cosmetics/calibration_ruler"},{"type":"single","resource":"cpvp:exlr8_cosmetics/burger","sprite":"cpvp:exlr8_cosmetics/burger"},{"type":"single","resource":"cpvp:exlr8_cosmetics/bucket_helmet","sprite":"cpvp:exlr8_cosmetics/bucket_helmet"},{"type":"single","resource":"cpvp:exlr8_cosmetics/boombox","sprite":"cpvp:exlr8_cosmetics/boombox"},{"type":"single","resource":"cpvp:exlr8_cosmetics/boba_tea","sprite":"cpvp:exlr8_cosmetics/boba_tea"},{"type":"single","resource":"cpvp:exlr8_cosmetics/bee","sprite":"cpvp:exlr8_cosmetics/bee"},{"type":"single","resource":"cpvp:exlr8_cosmetics/beanie","sprite":"cpvp:exlr8_cosmetics/beanie"},{"type":"single","resource":"cpvp:exlr8_cosmetics/astronaut_helmet","sprite":"cpvp:exlr8_cosmetics/astronaut_helmet"},{"type":"single","resource":"cpvp:exlr8_cosmetics/army_helmet","sprite":"cpvp:exlr8_cosmetics/army_helmet"},{"type":"single","resource":"cpvp:exlr8_cosmetics/apple_arrow","sprite":"cpvp:exlr8_cosmetics/apple_arrow"},{"type":"single","resource":"cpvp:exlr8_cosmetics/antlers","sprite":"cpvp:exlr8_cosmetics/antlers"},{"type":"single","resource":"cpvp:entity/chicken","sprite":"cpvp:entity/chicken"},{"type":"single","resource":"cpvp:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture","sprite":"cpvp:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture"},{"type":"single","resource":"cpvp:border/square_border_outer","sprite":"cpvp:border/square_border_outer"},{"type":"single","resource":"cpvp:border/square_border_inner","sprite":"cpvp:border/square_border_inner"},{"type":"single","resource":"cpvp:border/border_outer","sprite":"cpvp:border/border_outer"},{"type":"single","resource":"cpvp:border/border_inner","sprite":"cpvp:border/border_inner"},{"type":"single","resource":"cpvp:animals/turtle_hat","sprite":"cpvp:animals/turtle_hat"},{"type":"single","resource":"cpvp:animals/sheep_hat","sprite":"cpvp:animals/sheep_hat"},{"type":"single","resource":"cpvp:animals/red_panda_hat","sprite":"cpvp:animals/red_panda_hat"},{"type":"single","resource":"cpvp:animals/rabbit_hat","sprite":"cpvp:animals/rabbit_hat"},{"type":"single","resource":"cpvp:animals/pig_hat","sprite":"cpvp:animals/pig_hat"},{"type":"single","resource":"cpvp:animals/panda_hat","sprite":"cpvp:animals/panda_hat"},{"type":"single","resource":"cpvp:animals/monkey_hat","sprite":"cpvp:animals/monkey_hat"},{"type":"single","resource":"cpvp:animals/lion_hat","sprite":"cpvp:animals/lion_hat"},{"type":"single","resource":"cpvp:animals/frog_hat","sprite":"cpvp:animals/frog_hat"},{"type":"single","resource":"cpvp:animals/elephant_hat","sprite":"cpvp:animals/elephant_hat"},{"type":"single","resource":"cpvp:animals/duck_hat","sprite":"cpvp:animals/duck_hat"},{"type":"single","resource":"cpvp:animals/dolphin_hat","sprite":"cpvp:animals/dolphin_hat"},{"type":"single","resource":"cpvp:animals/dog_hat","sprite":"cpvp:animals/dog_hat"},{"type":"single","resource":"cpvp:animals/deer_hat","sprite":"cpvp:animals/deer_hat"},{"type":"single","resource":"cpvp:animals/cow_hat","sprite":"cpvp:animals/cow_hat"},{"type":"single","resource":"cpvp:animals/chicken_hat","sprite":"cpvp:animals/chicken_hat"},{"type":"single","resource":"cpvp:animals/cat_hat_2","sprite":"cpvp:animals/cat_hat_2"},{"type":"single","resource":"cpvp:animals/cat_hat_1","sprite":"cpvp:animals/cat_hat_1"},{"type":"single","resource":"cpvp:animals/cat_hat","sprite":"cpvp:animals/cat_hat"},{"type":"single","resource":"cpvp:animals/capybara_hat","sprite":"cpvp:animals/capybara_hat"}]}
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "item",
+      "prefix": "item/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:animals",
+      "prefix": "cpvp:animals/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:border",
+      "prefix": "cpvp:border/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:characters",
+      "prefix": "cpvp:characters/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:custom",
+      "prefix": "cpvp:custom/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:entity",
+      "prefix": "cpvp:entity/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:exlr8_cosmetics",
+      "prefix": "cpvp:exlr8_cosmetics/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:exlr8_hats",
+      "prefix": "cpvp:exlr8_hats/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:font",
+      "prefix": "cpvp:font/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:hats_expansion",
+      "prefix": "cpvp:hats_expansion/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:hud",
+      "prefix": "cpvp:hud/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:items",
+      "prefix": "cpvp:items/"
+    },
+    {
+      "type": "directory",
+      "source": "cpvp:required",
+      "prefix": "cpvp:required/"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/capybara_hat",
+      "sprite": "cpvp:animals/capybara_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/cat_hat",
+      "sprite": "cpvp:animals/cat_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/cat_hat_1",
+      "sprite": "cpvp:animals/cat_hat_1"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/cat_hat_2",
+      "sprite": "cpvp:animals/cat_hat_2"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/chicken_hat",
+      "sprite": "cpvp:animals/chicken_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/cow_hat",
+      "sprite": "cpvp:animals/cow_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/deer_hat",
+      "sprite": "cpvp:animals/deer_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/dog_hat",
+      "sprite": "cpvp:animals/dog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/dolphin_hat",
+      "sprite": "cpvp:animals/dolphin_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/duck_hat",
+      "sprite": "cpvp:animals/duck_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/elephant_hat",
+      "sprite": "cpvp:animals/elephant_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/frog_hat",
+      "sprite": "cpvp:animals/frog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/lion_hat",
+      "sprite": "cpvp:animals/lion_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/monkey_hat",
+      "sprite": "cpvp:animals/monkey_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/panda_hat",
+      "sprite": "cpvp:animals/panda_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/pig_hat",
+      "sprite": "cpvp:animals/pig_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/rabbit_hat",
+      "sprite": "cpvp:animals/rabbit_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/red_panda_hat",
+      "sprite": "cpvp:animals/red_panda_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/sheep_hat",
+      "sprite": "cpvp:animals/sheep_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/turtle_hat",
+      "sprite": "cpvp:animals/turtle_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/border_inner",
+      "sprite": "cpvp:border/border_inner"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/border_outer",
+      "sprite": "cpvp:border/border_outer"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/square_border_inner",
+      "sprite": "cpvp:border/square_border_inner"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/square_border_outer",
+      "sprite": "cpvp:border/square_border_outer"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/0",
+      "sprite": "cpvp:characters/0"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/1",
+      "sprite": "cpvp:characters/1"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/2",
+      "sprite": "cpvp:characters/2"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/3",
+      "sprite": "cpvp:characters/3"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/4",
+      "sprite": "cpvp:characters/4"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/5",
+      "sprite": "cpvp:characters/5"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/6",
+      "sprite": "cpvp:characters/6"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/7",
+      "sprite": "cpvp:characters/7"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/8",
+      "sprite": "cpvp:characters/8"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/9",
+      "sprite": "cpvp:characters/9"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:characters/hash",
+      "sprite": "cpvp:characters/hash"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture",
+      "sprite": "cpvp:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:entity/chicken",
+      "sprite": "cpvp:entity/chicken"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/antlers",
+      "sprite": "cpvp:exlr8_cosmetics/antlers"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/apple_arrow",
+      "sprite": "cpvp:exlr8_cosmetics/apple_arrow"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/army_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/army_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/astronaut_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/astronaut_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/beanie",
+      "sprite": "cpvp:exlr8_cosmetics/beanie"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/bee",
+      "sprite": "cpvp:exlr8_cosmetics/bee"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/boba_tea",
+      "sprite": "cpvp:exlr8_cosmetics/boba_tea"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/boombox",
+      "sprite": "cpvp:exlr8_cosmetics/boombox"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/bucket_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/bucket_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/burger",
+      "sprite": "cpvp:exlr8_cosmetics/burger"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/calibration_ruler",
+      "sprite": "cpvp:exlr8_cosmetics/calibration_ruler"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/cardboard_crown",
+      "sprite": "cpvp:exlr8_cosmetics/cardboard_crown"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/cat_ears",
+      "sprite": "cpvp:exlr8_cosmetics/cat_ears"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/chef_hat",
+      "sprite": "cpvp:exlr8_cosmetics/chef_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/crab",
+      "sprite": "cpvp:exlr8_cosmetics/crab"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/crystal_crown",
+      "sprite": "cpvp:exlr8_cosmetics/crystal_crown"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/deep_sea_diver",
+      "sprite": "cpvp:exlr8_cosmetics/deep_sea_diver"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/devil_horns",
+      "sprite": "cpvp:exlr8_cosmetics/devil_horns"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/end_crystal_hat",
+      "sprite": "cpvp:exlr8_cosmetics/end_crystal_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/end_crystal_hat_caged",
+      "sprite": "cpvp:exlr8_cosmetics/end_crystal_hat_caged"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/firefly_jar",
+      "sprite": "cpvp:exlr8_cosmetics/firefly_jar"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/fishbowl",
+      "sprite": "cpvp:exlr8_cosmetics/fishbowl"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/flower_crown",
+      "sprite": "cpvp:exlr8_cosmetics/flower_crown"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/football_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/football_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/fox",
+      "sprite": "cpvp:exlr8_cosmetics/fox"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/gas_mask",
+      "sprite": "cpvp:exlr8_cosmetics/gas_mask"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/halo",
+      "sprite": "cpvp:exlr8_cosmetics/halo"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/headphones",
+      "sprite": "cpvp:exlr8_cosmetics/headphones"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/knight_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/knight_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/loading_spinner",
+      "sprite": "cpvp:exlr8_cosmetics/loading_spinner"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/miner_hat",
+      "sprite": "cpvp:exlr8_cosmetics/miner_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/orbiting_moon",
+      "sprite": "cpvp:exlr8_cosmetics/orbiting_moon"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/party_cone",
+      "sprite": "cpvp:exlr8_cosmetics/party_cone"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/pilot_cap",
+      "sprite": "cpvp:exlr8_cosmetics/pilot_cap"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/pizza_slice",
+      "sprite": "cpvp:exlr8_cosmetics/pizza_slice"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/plague_doctor",
+      "sprite": "cpvp:exlr8_cosmetics/plague_doctor"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/police_cap",
+      "sprite": "cpvp:exlr8_cosmetics/police_cap"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/propeller_cap",
+      "sprite": "cpvp:exlr8_cosmetics/propeller_cap"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/radar_dish",
+      "sprite": "cpvp:exlr8_cosmetics/radar_dish"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/rain_cloud",
+      "sprite": "cpvp:exlr8_cosmetics/rain_cloud"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/saturn_rings",
+      "sprite": "cpvp:exlr8_cosmetics/saturn_rings"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/shark_hat",
+      "sprite": "cpvp:exlr8_cosmetics/shark_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/snail_shell",
+      "sprite": "cpvp:exlr8_cosmetics/snail_shell"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/snorkel_mask",
+      "sprite": "cpvp:exlr8_cosmetics/snorkel_mask"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/snow_globe",
+      "sprite": "cpvp:exlr8_cosmetics/snow_globe"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/soap_bubble",
+      "sprite": "cpvp:exlr8_cosmetics/soap_bubble"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/sushi_roll",
+      "sprite": "cpvp:exlr8_cosmetics/sushi_roll"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/traffic_cone",
+      "sprite": "cpvp:exlr8_cosmetics/traffic_cone"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/traffic_light",
+      "sprite": "cpvp:exlr8_cosmetics/traffic_light"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/viking_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/viking_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/vr_headset",
+      "sprite": "cpvp:exlr8_cosmetics/vr_headset"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/welding_mask",
+      "sprite": "cpvp:exlr8_cosmetics/welding_mask"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_cosmetics/witch_hat",
+      "sprite": "cpvp:exlr8_cosmetics/witch_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_hats/crown",
+      "sprite": "cpvp:exlr8_hats/crown"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_hats/gradcap",
+      "sprite": "cpvp:exlr8_hats/gradcap"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/admin",
+      "sprite": "cpvp:font/icons/admin"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/airdrop",
+      "sprite": "cpvp:font/icons/airdrop"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/animated",
+      "sprite": "cpvp:font/icons/animated"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/clock",
+      "sprite": "cpvp:font/icons/clock"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/coins",
+      "sprite": "cpvp:font/icons/coins"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/cr_server_icon",
+      "sprite": "cpvp:font/icons/cr_server_icon"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/crown",
+      "sprite": "cpvp:font/icons/crown"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/host",
+      "sprite": "cpvp:font/icons/host"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/level_up",
+      "sprite": "cpvp:font/icons/level_up"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/media",
+      "sprite": "cpvp:font/icons/media"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/openbarrel",
+      "sprite": "cpvp:font/icons/openbarrel"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/openchest",
+      "sprite": "cpvp:font/icons/openchest"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/owner",
+      "sprite": "cpvp:font/icons/owner"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/premium",
+      "sprite": "cpvp:font/icons/premium"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/quality_a",
+      "sprite": "cpvp:font/icons/quality_a"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/quality_b",
+      "sprite": "cpvp:font/icons/quality_b"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/quality_c",
+      "sprite": "cpvp:font/icons/quality_c"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/quality_d",
+      "sprite": "cpvp:font/icons/quality_d"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/quality_f",
+      "sprite": "cpvp:font/icons/quality_f"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/quality_s",
+      "sprite": "cpvp:font/icons/quality_s"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/quest",
+      "sprite": "cpvp:font/icons/quest"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_common",
+      "sprite": "cpvp:font/icons/rarity_common"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_dirt",
+      "sprite": "cpvp:font/icons/rarity_dirt"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_epic",
+      "sprite": "cpvp:font/icons/rarity_epic"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_exclusive",
+      "sprite": "cpvp:font/icons/rarity_exclusive"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_legendary",
+      "sprite": "cpvp:font/icons/rarity_legendary"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_mythic",
+      "sprite": "cpvp:font/icons/rarity_mythic"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_rare",
+      "sprite": "cpvp:font/icons/rarity_rare"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rarity_uncommon",
+      "sprite": "cpvp:font/icons/rarity_uncommon"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/rawlogo",
+      "sprite": "cpvp:font/icons/rawlogo"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/scroll",
+      "sprite": "cpvp:font/icons/scroll"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/skull",
+      "sprite": "cpvp:font/icons/skull"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/staff",
+      "sprite": "cpvp:font/icons/staff"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/star",
+      "sprite": "cpvp:font/icons/star"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/sword",
+      "sprite": "cpvp:font/icons/sword"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/tier1",
+      "sprite": "cpvp:font/icons/tier1"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/tier2",
+      "sprite": "cpvp:font/icons/tier2"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/tier3",
+      "sprite": "cpvp:font/icons/tier3"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/trial",
+      "sprite": "cpvp:font/icons/trial"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/twoswords",
+      "sprite": "cpvp:font/icons/twoswords"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/vip",
+      "sprite": "cpvp:font/icons/vip"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:font/icons/you",
+      "sprite": "cpvp:font/icons/you"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/adventurer_hat",
+      "sprite": "cpvp:hats_expansion/adventurer_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/adventurer_hat_dyed",
+      "sprite": "cpvp:hats_expansion/adventurer_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/amongus_head",
+      "sprite": "cpvp:hats_expansion/amongus_head"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/amongus_head_dyed",
+      "sprite": "cpvp:hats_expansion/amongus_head_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/axolotl_hat",
+      "sprite": "cpvp:hats_expansion/axolotl_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/axolotl_hat_dyed",
+      "sprite": "cpvp:hats_expansion/axolotl_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/baseball_cap",
+      "sprite": "cpvp:hats_expansion/baseball_cap"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/baseball_cap_dyed",
+      "sprite": "cpvp:hats_expansion/baseball_cap_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/cardboard_box",
+      "sprite": "cpvp:hats_expansion/cardboard_box"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/fedora",
+      "sprite": "cpvp:hats_expansion/fedora"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/fedora_dyed",
+      "sprite": "cpvp:hats_expansion/fedora_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/frog_hat",
+      "sprite": "cpvp:hats_expansion/frog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/frog_hat_dyed",
+      "sprite": "cpvp:hats_expansion/frog_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/hard_hat",
+      "sprite": "cpvp:hats_expansion/hard_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/jellyfish_hat",
+      "sprite": "cpvp:hats_expansion/jellyfish_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/jellyfish_hat_dyed",
+      "sprite": "cpvp:hats_expansion/jellyfish_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sensei",
+      "sprite": "cpvp:hats_expansion/sensei"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sensei_dyed",
+      "sprite": "cpvp:hats_expansion/sensei_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sombrero",
+      "sprite": "cpvp:hats_expansion/sombrero"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sombrero_dyed",
+      "sprite": "cpvp:hats_expansion/sombrero_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/straw_hat",
+      "sprite": "cpvp:hats_expansion/straw_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/straw_hat_dyed",
+      "sprite": "cpvp:hats_expansion/straw_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/tv_head",
+      "sprite": "cpvp:hats_expansion/tv_head"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/tv_head_dyed",
+      "sprite": "cpvp:hats_expansion/tv_head_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/ufo_hat",
+      "sprite": "cpvp:hats_expansion/ufo_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/ufo_hat_dyed",
+      "sprite": "cpvp:hats_expansion/ufo_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/maps/drops",
+      "sprite": "cpvp:hud/maps/drops"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/maps/map2",
+      "sprite": "cpvp:hud/maps/map2"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/maps/map3",
+      "sprite": "cpvp:hud/maps/map3"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-1",
+      "sprite": "cpvp:hud/reboot/reboot-1"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-10",
+      "sprite": "cpvp:hud/reboot/reboot-10"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-11",
+      "sprite": "cpvp:hud/reboot/reboot-11"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-12",
+      "sprite": "cpvp:hud/reboot/reboot-12"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-13",
+      "sprite": "cpvp:hud/reboot/reboot-13"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-14",
+      "sprite": "cpvp:hud/reboot/reboot-14"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-2",
+      "sprite": "cpvp:hud/reboot/reboot-2"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-3",
+      "sprite": "cpvp:hud/reboot/reboot-3"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-4",
+      "sprite": "cpvp:hud/reboot/reboot-4"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-5",
+      "sprite": "cpvp:hud/reboot/reboot-5"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-6",
+      "sprite": "cpvp:hud/reboot/reboot-6"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-7",
+      "sprite": "cpvp:hud/reboot/reboot-7"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-8",
+      "sprite": "cpvp:hud/reboot/reboot-8"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hud/reboot/reboot-9",
+      "sprite": "cpvp:hud/reboot/reboot-9"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/reboot",
+      "sprite": "cpvp:items/reboot"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/rebootcard",
+      "sprite": "cpvp:items/rebootcard"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/totem_voucher",
+      "sprite": "cpvp:items/totem_voucher"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/totemvoucher4",
+      "sprite": "cpvp:items/totemvoucher4"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/totemvoucher7",
+      "sprite": "cpvp:items/totemvoucher7"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/arrow_next_icon",
+      "sprite": "cpvp:required/arrow_next_icon"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/arrow_previous_icon",
+      "sprite": "cpvp:required/arrow_previous_icon"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/ascii_offset",
+      "sprite": "cpvp:required/ascii_offset"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/exit_icon",
+      "sprite": "cpvp:required/exit_icon"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/logo",
+      "sprite": "cpvp:required/logo"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/null",
+      "sprite": "cpvp:required/null"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/particle",
+      "sprite": "cpvp:required/particle"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/recipe_showcase",
+      "sprite": "cpvp:required/recipe_showcase"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/recipe_stonecutter",
+      "sprite": "cpvp:required/recipe_stonecutter"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/ui/menu_banner",
+      "sprite": "cpvp:required/ui/menu_banner"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/ui/menu_items",
+      "sprite": "cpvp:required/ui/menu_items"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:required/ui/menu_items_gems",
+      "sprite": "cpvp:required/ui/menu_items_gems"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/capybara_hat",
+      "sprite": "minecraft:animals/capybara_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/cat_hat",
+      "sprite": "minecraft:animals/cat_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/cat_hat_1",
+      "sprite": "minecraft:animals/cat_hat_1"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/cat_hat_2",
+      "sprite": "minecraft:animals/cat_hat_2"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/chicken_hat",
+      "sprite": "minecraft:animals/chicken_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/cow_hat",
+      "sprite": "minecraft:animals/cow_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/deer_hat",
+      "sprite": "minecraft:animals/deer_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/dog_hat",
+      "sprite": "minecraft:animals/dog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/dolphin_hat",
+      "sprite": "minecraft:animals/dolphin_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/duck_hat",
+      "sprite": "minecraft:animals/duck_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/elephant_hat",
+      "sprite": "minecraft:animals/elephant_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/frog_hat",
+      "sprite": "minecraft:animals/frog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/lion_hat",
+      "sprite": "minecraft:animals/lion_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/monkey_hat",
+      "sprite": "minecraft:animals/monkey_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/panda_hat",
+      "sprite": "minecraft:animals/panda_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/pig_hat",
+      "sprite": "minecraft:animals/pig_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/rabbit_hat",
+      "sprite": "minecraft:animals/rabbit_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/red_panda_hat",
+      "sprite": "minecraft:animals/red_panda_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/sheep_hat",
+      "sprite": "minecraft:animals/sheep_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:animals/turtle_hat",
+      "sprite": "minecraft:animals/turtle_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:border/border_inner",
+      "sprite": "minecraft:border/border_inner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:border/border_outer",
+      "sprite": "minecraft:border/border_outer"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:border/square_border_inner",
+      "sprite": "minecraft:border/square_border_inner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:border/square_border_outer",
+      "sprite": "minecraft:border/square_border_outer"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/0",
+      "sprite": "minecraft:characters/0"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/1",
+      "sprite": "minecraft:characters/1"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/2",
+      "sprite": "minecraft:characters/2"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/3",
+      "sprite": "minecraft:characters/3"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/4",
+      "sprite": "minecraft:characters/4"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/5",
+      "sprite": "minecraft:characters/5"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/6",
+      "sprite": "minecraft:characters/6"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/7",
+      "sprite": "minecraft:characters/7"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/8",
+      "sprite": "minecraft:characters/8"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/9",
+      "sprite": "minecraft:characters/9"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:characters/hash",
+      "sprite": "minecraft:characters/hash"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:cpvp/border/border",
+      "sprite": "minecraft:cpvp/border/border"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:cpvp/border/border_inner",
+      "sprite": "minecraft:cpvp/border/border_inner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:cpvp/border/forcefield",
+      "sprite": "minecraft:cpvp/border/forcefield"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:cpvp/border/forcefield_inner",
+      "sprite": "minecraft:cpvp/border/forcefield_inner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture",
+      "sprite": "minecraft:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/chicken",
+      "sprite": "minecraft:entity/chicken"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/antlers",
+      "sprite": "minecraft:exlr8_cosmetics/antlers"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/apple_arrow",
+      "sprite": "minecraft:exlr8_cosmetics/apple_arrow"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/army_helmet",
+      "sprite": "minecraft:exlr8_cosmetics/army_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/astronaut_helmet",
+      "sprite": "minecraft:exlr8_cosmetics/astronaut_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/beanie",
+      "sprite": "minecraft:exlr8_cosmetics/beanie"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/bee",
+      "sprite": "minecraft:exlr8_cosmetics/bee"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/boba_tea",
+      "sprite": "minecraft:exlr8_cosmetics/boba_tea"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/boombox",
+      "sprite": "minecraft:exlr8_cosmetics/boombox"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/bucket_helmet",
+      "sprite": "minecraft:exlr8_cosmetics/bucket_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/burger",
+      "sprite": "minecraft:exlr8_cosmetics/burger"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/calibration_ruler",
+      "sprite": "minecraft:exlr8_cosmetics/calibration_ruler"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/cardboard_crown",
+      "sprite": "minecraft:exlr8_cosmetics/cardboard_crown"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/cat_ears",
+      "sprite": "minecraft:exlr8_cosmetics/cat_ears"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/chef_hat",
+      "sprite": "minecraft:exlr8_cosmetics/chef_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/crab",
+      "sprite": "minecraft:exlr8_cosmetics/crab"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/crystal_crown",
+      "sprite": "minecraft:exlr8_cosmetics/crystal_crown"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/deep_sea_diver",
+      "sprite": "minecraft:exlr8_cosmetics/deep_sea_diver"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/devil_horns",
+      "sprite": "minecraft:exlr8_cosmetics/devil_horns"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/end_crystal_hat",
+      "sprite": "minecraft:exlr8_cosmetics/end_crystal_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/end_crystal_hat_caged",
+      "sprite": "minecraft:exlr8_cosmetics/end_crystal_hat_caged"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/firefly_jar",
+      "sprite": "minecraft:exlr8_cosmetics/firefly_jar"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/fishbowl",
+      "sprite": "minecraft:exlr8_cosmetics/fishbowl"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/flower_crown",
+      "sprite": "minecraft:exlr8_cosmetics/flower_crown"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/football_helmet",
+      "sprite": "minecraft:exlr8_cosmetics/football_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/fox",
+      "sprite": "minecraft:exlr8_cosmetics/fox"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/gas_mask",
+      "sprite": "minecraft:exlr8_cosmetics/gas_mask"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/halo",
+      "sprite": "minecraft:exlr8_cosmetics/halo"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/headphones",
+      "sprite": "minecraft:exlr8_cosmetics/headphones"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/knight_helmet",
+      "sprite": "minecraft:exlr8_cosmetics/knight_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/loading_spinner",
+      "sprite": "minecraft:exlr8_cosmetics/loading_spinner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/miner_hat",
+      "sprite": "minecraft:exlr8_cosmetics/miner_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/orbiting_moon",
+      "sprite": "minecraft:exlr8_cosmetics/orbiting_moon"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/party_cone",
+      "sprite": "minecraft:exlr8_cosmetics/party_cone"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/pilot_cap",
+      "sprite": "minecraft:exlr8_cosmetics/pilot_cap"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/pizza_slice",
+      "sprite": "minecraft:exlr8_cosmetics/pizza_slice"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/plague_doctor",
+      "sprite": "minecraft:exlr8_cosmetics/plague_doctor"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/police_cap",
+      "sprite": "minecraft:exlr8_cosmetics/police_cap"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/propeller_cap",
+      "sprite": "minecraft:exlr8_cosmetics/propeller_cap"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/radar_dish",
+      "sprite": "minecraft:exlr8_cosmetics/radar_dish"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/rain_cloud",
+      "sprite": "minecraft:exlr8_cosmetics/rain_cloud"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/saturn_rings",
+      "sprite": "minecraft:exlr8_cosmetics/saturn_rings"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/shark_hat",
+      "sprite": "minecraft:exlr8_cosmetics/shark_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/snail_shell",
+      "sprite": "minecraft:exlr8_cosmetics/snail_shell"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/snorkel_mask",
+      "sprite": "minecraft:exlr8_cosmetics/snorkel_mask"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/snow_globe",
+      "sprite": "minecraft:exlr8_cosmetics/snow_globe"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/soap_bubble",
+      "sprite": "minecraft:exlr8_cosmetics/soap_bubble"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/sushi_roll",
+      "sprite": "minecraft:exlr8_cosmetics/sushi_roll"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/traffic_cone",
+      "sprite": "minecraft:exlr8_cosmetics/traffic_cone"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/traffic_light",
+      "sprite": "minecraft:exlr8_cosmetics/traffic_light"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/viking_helmet",
+      "sprite": "minecraft:exlr8_cosmetics/viking_helmet"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/vr_headset",
+      "sprite": "minecraft:exlr8_cosmetics/vr_headset"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/welding_mask",
+      "sprite": "minecraft:exlr8_cosmetics/welding_mask"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_cosmetics/witch_hat",
+      "sprite": "minecraft:exlr8_cosmetics/witch_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_hats/crown",
+      "sprite": "minecraft:exlr8_hats/crown"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:exlr8_hats/gradcap",
+      "sprite": "minecraft:exlr8_hats/gradcap"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/star",
+      "sprite": "minecraft:font/star"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/admin",
+      "sprite": "minecraft:font/icons/admin"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/airdrop",
+      "sprite": "minecraft:font/icons/airdrop"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/animated",
+      "sprite": "minecraft:font/icons/animated"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/clock",
+      "sprite": "minecraft:font/icons/clock"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/coins",
+      "sprite": "minecraft:font/icons/coins"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/cr_server_icon",
+      "sprite": "minecraft:font/icons/cr_server_icon"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/crown",
+      "sprite": "minecraft:font/icons/crown"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/host",
+      "sprite": "minecraft:font/icons/host"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/level_up",
+      "sprite": "minecraft:font/icons/level_up"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/media",
+      "sprite": "minecraft:font/icons/media"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/openbarrel",
+      "sprite": "minecraft:font/icons/openbarrel"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/openchest",
+      "sprite": "minecraft:font/icons/openchest"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/owner",
+      "sprite": "minecraft:font/icons/owner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/premium",
+      "sprite": "minecraft:font/icons/premium"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/quality_a",
+      "sprite": "minecraft:font/icons/quality_a"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/quality_b",
+      "sprite": "minecraft:font/icons/quality_b"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/quality_c",
+      "sprite": "minecraft:font/icons/quality_c"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/quality_d",
+      "sprite": "minecraft:font/icons/quality_d"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/quality_f",
+      "sprite": "minecraft:font/icons/quality_f"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/quality_s",
+      "sprite": "minecraft:font/icons/quality_s"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/quest",
+      "sprite": "minecraft:font/icons/quest"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_common",
+      "sprite": "minecraft:font/icons/rarity_common"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_dirt",
+      "sprite": "minecraft:font/icons/rarity_dirt"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_epic",
+      "sprite": "minecraft:font/icons/rarity_epic"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_exclusive",
+      "sprite": "minecraft:font/icons/rarity_exclusive"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_legendary",
+      "sprite": "minecraft:font/icons/rarity_legendary"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_mythic",
+      "sprite": "minecraft:font/icons/rarity_mythic"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_rare",
+      "sprite": "minecraft:font/icons/rarity_rare"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rarity_uncommon",
+      "sprite": "minecraft:font/icons/rarity_uncommon"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/rawlogo",
+      "sprite": "minecraft:font/icons/rawlogo"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/scroll",
+      "sprite": "minecraft:font/icons/scroll"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/skull",
+      "sprite": "minecraft:font/icons/skull"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/staff",
+      "sprite": "minecraft:font/icons/staff"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/star",
+      "sprite": "minecraft:font/icons/star"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/sword",
+      "sprite": "minecraft:font/icons/sword"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/tier1",
+      "sprite": "minecraft:font/icons/tier1"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/tier2",
+      "sprite": "minecraft:font/icons/tier2"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/tier3",
+      "sprite": "minecraft:font/icons/tier3"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/trial",
+      "sprite": "minecraft:font/icons/trial"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/twoswords",
+      "sprite": "minecraft:font/icons/twoswords"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/vip",
+      "sprite": "minecraft:font/icons/vip"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:font/icons/you",
+      "sprite": "minecraft:font/icons/you"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/adventurer_hat",
+      "sprite": "minecraft:hats_expansion/adventurer_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/adventurer_hat_dyed",
+      "sprite": "minecraft:hats_expansion/adventurer_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/amongus_head",
+      "sprite": "minecraft:hats_expansion/amongus_head"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/amongus_head_dyed",
+      "sprite": "minecraft:hats_expansion/amongus_head_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/axolotl_hat",
+      "sprite": "minecraft:hats_expansion/axolotl_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/axolotl_hat_dyed",
+      "sprite": "minecraft:hats_expansion/axolotl_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/baseball_cap",
+      "sprite": "minecraft:hats_expansion/baseball_cap"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/baseball_cap_dyed",
+      "sprite": "minecraft:hats_expansion/baseball_cap_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/cardboard_box",
+      "sprite": "minecraft:hats_expansion/cardboard_box"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/fedora",
+      "sprite": "minecraft:hats_expansion/fedora"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/fedora_dyed",
+      "sprite": "minecraft:hats_expansion/fedora_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/frog_hat",
+      "sprite": "minecraft:hats_expansion/frog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/frog_hat_dyed",
+      "sprite": "minecraft:hats_expansion/frog_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/hard_hat",
+      "sprite": "minecraft:hats_expansion/hard_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/jellyfish_hat",
+      "sprite": "minecraft:hats_expansion/jellyfish_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/jellyfish_hat_dyed",
+      "sprite": "minecraft:hats_expansion/jellyfish_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/sensei",
+      "sprite": "minecraft:hats_expansion/sensei"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/sensei_dyed",
+      "sprite": "minecraft:hats_expansion/sensei_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/sombrero",
+      "sprite": "minecraft:hats_expansion/sombrero"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/sombrero_dyed",
+      "sprite": "minecraft:hats_expansion/sombrero_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/straw_hat",
+      "sprite": "minecraft:hats_expansion/straw_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/straw_hat_dyed",
+      "sprite": "minecraft:hats_expansion/straw_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/tv_head",
+      "sprite": "minecraft:hats_expansion/tv_head"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/tv_head_dyed",
+      "sprite": "minecraft:hats_expansion/tv_head_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/ufo_hat",
+      "sprite": "minecraft:hats_expansion/ufo_hat"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hats_expansion/ufo_hat_dyed",
+      "sprite": "minecraft:hats_expansion/ufo_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/maps/drops",
+      "sprite": "minecraft:hud/maps/drops"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/maps/map2",
+      "sprite": "minecraft:hud/maps/map2"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/maps/map3",
+      "sprite": "minecraft:hud/maps/map3"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-1",
+      "sprite": "minecraft:hud/reboot/reboot-1"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-10",
+      "sprite": "minecraft:hud/reboot/reboot-10"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-11",
+      "sprite": "minecraft:hud/reboot/reboot-11"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-12",
+      "sprite": "minecraft:hud/reboot/reboot-12"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-13",
+      "sprite": "minecraft:hud/reboot/reboot-13"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-14",
+      "sprite": "minecraft:hud/reboot/reboot-14"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-2",
+      "sprite": "minecraft:hud/reboot/reboot-2"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-3",
+      "sprite": "minecraft:hud/reboot/reboot-3"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-4",
+      "sprite": "minecraft:hud/reboot/reboot-4"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-5",
+      "sprite": "minecraft:hud/reboot/reboot-5"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-6",
+      "sprite": "minecraft:hud/reboot/reboot-6"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-7",
+      "sprite": "minecraft:hud/reboot/reboot-7"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-8",
+      "sprite": "minecraft:hud/reboot/reboot-8"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:hud/reboot/reboot-9",
+      "sprite": "minecraft:hud/reboot/reboot-9"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:items/reboot",
+      "sprite": "minecraft:items/reboot"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:items/rebootcard",
+      "sprite": "minecraft:items/rebootcard"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:items/totem_voucher",
+      "sprite": "minecraft:items/totem_voucher"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:items/totemvoucher4",
+      "sprite": "minecraft:items/totemvoucher4"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:items/totemvoucher7",
+      "sprite": "minecraft:items/totemvoucher7"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:models/leather_layer_1",
+      "sprite": "minecraft:models/leather_layer_1"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:models/leather_layer_2",
+      "sprite": "minecraft:models/leather_layer_2"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/arrow_next_icon",
+      "sprite": "minecraft:required/arrow_next_icon"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/arrow_previous_icon",
+      "sprite": "minecraft:required/arrow_previous_icon"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/ascii_offset",
+      "sprite": "minecraft:required/ascii_offset"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/exit_icon",
+      "sprite": "minecraft:required/exit_icon"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/logo",
+      "sprite": "minecraft:required/logo"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/null",
+      "sprite": "minecraft:required/null"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/particle",
+      "sprite": "minecraft:required/particle"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/recipe_showcase",
+      "sprite": "minecraft:required/recipe_showcase"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/recipe_stonecutter",
+      "sprite": "minecraft:required/recipe_stonecutter"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/ui/menu_banner",
+      "sprite": "minecraft:required/ui/menu_banner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/ui/menu_items",
+      "sprite": "minecraft:required/ui/menu_items"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:required/ui/menu_items_gems",
+      "sprite": "minecraft:required/ui/menu_items_gems"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/admin",
+      "sprite": "minecraft:sb/admin"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/clock",
+      "sprite": "minecraft:sb/clock"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/coins",
+      "sprite": "minecraft:sb/coins"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/crown",
+      "sprite": "minecraft:sb/crown"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/gary",
+      "sprite": "minecraft:sb/gary"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/host",
+      "sprite": "minecraft:sb/host"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/level_up",
+      "sprite": "minecraft:sb/level_up"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/media",
+      "sprite": "minecraft:sb/media"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/owner",
+      "sprite": "minecraft:sb/owner"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/premium",
+      "sprite": "minecraft:sb/premium"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/quality_a",
+      "sprite": "minecraft:sb/quality_a"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/quality_b",
+      "sprite": "minecraft:sb/quality_b"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/quality_c",
+      "sprite": "minecraft:sb/quality_c"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/quality_d",
+      "sprite": "minecraft:sb/quality_d"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/quality_f",
+      "sprite": "minecraft:sb/quality_f"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/quality_s",
+      "sprite": "minecraft:sb/quality_s"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/quest",
+      "sprite": "minecraft:sb/quest"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/rarity_common",
+      "sprite": "minecraft:sb/rarity_common"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/rarity_epic",
+      "sprite": "minecraft:sb/rarity_epic"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/rarity_legendary",
+      "sprite": "minecraft:sb/rarity_legendary"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/rarity_mythic",
+      "sprite": "minecraft:sb/rarity_mythic"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/rarity_rare",
+      "sprite": "minecraft:sb/rarity_rare"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/scroll",
+      "sprite": "minecraft:sb/scroll"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/skull",
+      "sprite": "minecraft:sb/skull"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/staff",
+      "sprite": "minecraft:sb/staff"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/star",
+      "sprite": "minecraft:sb/star"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/sword",
+      "sprite": "minecraft:sb/sword"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/text",
+      "sprite": "minecraft:sb/text"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/text2",
+      "sprite": "minecraft:sb/text2"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/trial",
+      "sprite": "minecraft:sb/trial"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/twoswords",
+      "sprite": "minecraft:sb/twoswords"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/vip",
+      "sprite": "minecraft:sb/vip"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:sb/you",
+      "sprite": "minecraft:sb/you"
+    }
+  ]
+}

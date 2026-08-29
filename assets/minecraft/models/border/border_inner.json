@@ -1,0 +1,14 @@
+{
+  "textures": {
+    "0": "cpvp:border/border_inner"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 8],
+      "to": [16, 16, 8],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+      }
+    }
+  ]
+}
