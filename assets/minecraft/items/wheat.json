@@ -1,0 +1,1 @@
+{"model":{"type":"minecraft:range_dispatch","property":"minecraft:custom_model_data","index":0,"fallback":{"type":"minecraft:model","model":"minecraft:item/wheat"},"entries":[{"model":{"type":"minecraft:model","model":"minecraft:cpvp/border/border_whole"},"threshold":1}]}}

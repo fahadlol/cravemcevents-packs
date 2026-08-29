@@ -1,0 +1,241 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "item",
+      "prefix": "item/"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/capybara_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/cat_hat_1"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/cat_hat_2"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/chicken_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/cow_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/deer_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/dog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/dolphin_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/duck_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/elephant_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/frog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/lion_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/monkey_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/panda_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/pig_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/rabbit_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/red_panda_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/sheep_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:animals/turtle_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/border_inner"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/border_outer"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/square_border_inner"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:border/square_border_outer"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:entity/chicken"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_hats/crown"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:exlr8_hats/gradcap"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/adventurer_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/adventurer_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/amongus_head"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/amongus_head_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/axolotl_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/axolotl_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/baseball_cap"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/baseball_cap_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/cardboard_box"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/fedora"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/fedora_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/frog_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/frog_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/hard_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/jellyfish_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/jellyfish_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sensei"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sensei_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sombrero"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/sombrero_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/straw_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/straw_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/tv_head"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/tv_head_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/ufo_hat"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:hats_expansion/ufo_hat_dyed"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/reboot"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/rebootcard"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/totem_voucher"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/totemvoucher4"
+    },
+    {
+      "type": "single",
+      "resource": "cpvp:items/totemvoucher7"
+    }
+  ]
+}

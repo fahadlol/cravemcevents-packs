@@ -1,0 +1,22 @@
+{
+  "sound.notification_1": "Notification",
+  "sound.notification_2": "Notification",
+  "sound.reboot_card_pickup": "Reboot Card Pickup",
+  "sound.rebooting": "Reboot Van Hums",
+  "sound.respawn_rebooted": "Respawn Rebooted",
+  "sound.storm_notification": "Storm Notification",
+  "sound.teammate_dead": "Teammate Dead",
+  "sound.win": "Win",
+  "sound.kill": "Player Killed",
+  "sound.totems": "Totems Recieved",
+  "sound.dragon_approach": "Dragon Approaches",
+  "sound.team_leave": "Team Leave / Cancel",
+  "sound.team_join": "Team Joined",
+  "sound.team_incoming": "Team Request Recieved",
+  "sound.team_sent": "Team Request Sent",
+  "sound.ui": "Ui Click",
+  "sound.squeak": "Squeak",
+  "sound.level_up": "Level Up",
+  "sound.coin_ching": "Coins Clink",
+  "sound.jump": "Player jumps from Dragon"
+}

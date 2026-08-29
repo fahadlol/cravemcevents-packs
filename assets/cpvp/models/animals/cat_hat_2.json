@@ -1,0 +1,14 @@
+{
+  "credit": "Erocavontic",
+  "textures": {
+    "0": "cpvp:animals/cat_hat_2",
+    "particle": "cpvp:animals/cat_hat_2"
+  },
+  "parent": "cpvp:animals/cat_hat_1",
+  "USER": "61576",
+  "NONCE": "269e1c1756b5a0ade9a63ba27619a565",
+  "TIMESTAMP": "1776479335",
+  "RESOURCE": "11700",
+  "MCMODELS": "1",
+  "mcmodels": "269e1c1756b5a0ade9a63ba27619a565"
+}

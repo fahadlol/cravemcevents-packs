@@ -1,0 +1,332 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\uf800": 1,
+        "\uf801": 2,
+        "\uf802": 4,
+        "\uf803": 8,
+        "\uf804": 16,
+        "\uf805": 32,
+        "\uf806": 64,
+        "\uf807": 128,
+        "\uf808": 256,
+        "\uf809": 512,
+        "\uf80a": 1024,
+        "\uf80b": -1,
+        "\uf80c": -2,
+        "\uf80d": -4,
+        "\uf80e": -8,
+        "\uf80f": -16,
+        "\uf810": -32,
+        "\uf811": -64,
+        "\uf812": -128,
+        "\uf813": -256,
+        "\uf814": -512,
+        "\uf815": -1024
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/owner.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/admin.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/staff.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/trial.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/media.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/gary.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/crown.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/level_up.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/skull.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/star.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/sword.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/text.png",
+      "ascent": 28,
+      "height": 32,
+      "chars": [
+        "\ue013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/text2.png",
+      "ascent": 28,
+      "height": 32,
+      "chars": [
+        "\ue018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/quest.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/twoswords.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/clock.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/you.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/quality_f.png",
+      "ascent": 8,
+      "height": 18,
+      "chars": [
+        "\ue020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/quality_d.png",
+      "ascent": 8,
+      "height": 18,
+      "chars": [
+        "\ue021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/quality_c.png",
+      "ascent": 8,
+      "height": 18,
+      "chars": [
+        "\ue022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/quality_b.png",
+      "ascent": 8,
+      "height": 18,
+      "chars": [
+        "\ue023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/quality_a.png",
+      "ascent": 8,
+      "height": 18,
+      "chars": [
+        "\ue024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/quality_s.png",
+      "ascent": 8,
+      "height": 18,
+      "chars": [
+        "\ue025"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/premium.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/scroll.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/rarity_common.png",
+      "ascent": 7,
+      "height": 15,
+      "chars": [
+        "\ue030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/rarity_rare.png",
+      "ascent": 7,
+      "height": 15,
+      "chars": [
+        "\ue031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/rarity_epic.png",
+      "ascent": 7,
+      "height": 15,
+      "chars": [
+        "\ue032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/rarity_legendary.png",
+      "ascent": 7,
+      "height": 15,
+      "chars": [
+        "\ue033"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/rarity_mythic.png",
+      "ascent": 7,
+      "height": 15,
+      "chars": [
+        "\ue034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/vip.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/host.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sb/coins.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue012"
+      ]
+    }
+  ]
+}

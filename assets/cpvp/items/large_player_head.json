@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "cpvp:item/large_player_head_ground",
+    "model": {
+      "type": "minecraft:player_head"
+    }
+  }
+}
