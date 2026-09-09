@@ -82,10 +82,9 @@ void main() {
     vertexDistance = 0;
 
     ivec4 t = nearest(texture(Sampler0, UV0));
-    // circle border — only on flat border item planes (y=8); avoids hijacking totem pop / other 3D items
-    bool nearBorderPlane = abs(Position.y - 8.0) < 0.01;
+    // circle border
     bool outer = t == ivec4(117, 195, 186, 241);
-    if (nearBorderPlane && (outer || t == ivec4(117, 195, 186, 243))) {
+    if (outer || t == ivec4(117, 195, 186, 243)) {
         type = outer ? TYPE_BORDER : TYPE_BORDER_INNER;
         const vec2[4] corners = vec2[4](vec2(0), vec2(0, 1), vec2(1, 1), vec2(1, 0));
         vec2 corner = corners[(gl_VertexID+2) % 4].yx;
@@ -168,7 +167,7 @@ void main() {
         - vec2(0.0001, 0.0001) * int(gl_VertexID % 4 == 2)
         - vec2(0, 0.0001) * int(gl_VertexID % 4 == 1)
         ));
-    if (nearBorderPlane && t1 == ivec4(230, 130, 234, 3)) {
+    if (t1 == ivec4(230, 130, 234, 3)) {
         type = TYPE_SQUARE_BORDER;
         border(gl_VertexID % 4);
     }
@@ -178,7 +177,7 @@ void main() {
         - vec2(0.0001, 0.0001) * int(gl_VertexID % 4 == 0)
         - vec2(0, 0.0001) * int(gl_VertexID % 4 == 3)
         ));
-    if (nearBorderPlane && t2 == ivec4(246, 130, 234, 3)) {
+    if (t2 == ivec4(246, 130, 234, 3)) {
         type = TYPE_SQUARE_BORDER_INNER;
         border((gl_VertexID + 2) % 4);
     }

@@ -7,28 +7,28 @@
     {
       "type": "space",
       "advances": {
-        "\uf800": 1,
-        "\uf801": 2,
-        "\uf802": 4,
-        "\uf803": 8,
-        "\uf804": 16,
-        "\uf805": 32,
-        "\uf806": 64,
-        "\uf807": 128,
-        "\uf808": 256,
-        "\uf809": 512,
-        "\uf80a": 1024,
-        "\uf80b": -1,
-        "\uf80c": -2,
-        "\uf80d": -4,
-        "\uf80e": -8,
-        "\uf80f": -16,
-        "\uf810": -32,
-        "\uf811": -64,
-        "\uf812": -128,
-        "\uf813": -256,
-        "\uf814": -512,
-        "\uf815": -1024
+        "": 1,
+        "": 2,
+        "": 4,
+        "": 8,
+        "": 16,
+        "": 32,
+        "": 64,
+        "": 128,
+        "": 256,
+        "": 512,
+        "": 1024,
+        "": -1,
+        "": -2,
+        "": -4,
+        "": -8,
+        "": -16,
+        "": -32,
+        "": -64,
+        "": -128,
+        "": -256,
+        "": -512,
+        "": -1024
       }
     },
     {
@@ -37,7 +37,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue001"
+        ""
       ]
     },
     {
@@ -46,7 +46,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue002"
+        ""
       ]
     },
     {
@@ -55,7 +55,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue003"
+        ""
       ]
     },
     {
@@ -64,7 +64,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue004"
+        ""
       ]
     },
     {
@@ -73,7 +73,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue005"
+        ""
       ]
     },
     {
@@ -82,7 +82,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue006"
+        ""
       ]
     },
     {
@@ -91,7 +91,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue007"
+        ""
       ]
     },
     {
@@ -100,7 +100,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue008"
+        ""
       ]
     },
     {
@@ -109,7 +109,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue009"
+        ""
       ]
     },
     {
@@ -118,7 +118,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue010"
+        ""
       ]
     },
     {
@@ -127,7 +127,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue011"
+        ""
       ]
     },
     {
@@ -136,7 +136,7 @@
       "ascent": 28,
       "height": 32,
       "chars": [
-        "\ue013"
+        ""
       ]
     },
     {
@@ -145,7 +145,7 @@
       "ascent": 28,
       "height": 32,
       "chars": [
-        "\ue018"
+        ""
       ]
     },
     {
@@ -154,7 +154,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue014"
+        ""
       ]
     },
     {
@@ -163,7 +163,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue015"
+        ""
       ]
     },
     {
@@ -172,7 +172,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue016"
+        ""
       ]
     },
     {
@@ -181,7 +181,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue017"
+        ""
       ]
     },
     {
@@ -190,7 +190,7 @@
       "ascent": 8,
       "height": 18,
       "chars": [
-        "\ue020"
+        ""
       ]
     },
     {
@@ -199,7 +199,7 @@
       "ascent": 8,
       "height": 18,
       "chars": [
-        "\ue021"
+        ""
       ]
     },
     {
@@ -208,7 +208,7 @@
       "ascent": 8,
       "height": 18,
       "chars": [
-        "\ue022"
+        ""
       ]
     },
     {
@@ -217,7 +217,7 @@
       "ascent": 8,
       "height": 18,
       "chars": [
-        "\ue023"
+        ""
       ]
     },
     {
@@ -226,7 +226,7 @@
       "ascent": 8,
       "height": 18,
       "chars": [
-        "\ue024"
+        ""
       ]
     },
     {
@@ -235,7 +235,7 @@
       "ascent": 8,
       "height": 18,
       "chars": [
-        "\ue025"
+        ""
       ]
     },
     {
@@ -244,7 +244,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue019"
+        ""
       ]
     },
     {
@@ -253,7 +253,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue026"
+        ""
       ]
     },
     {
@@ -262,7 +262,7 @@
       "ascent": 7,
       "height": 15,
       "chars": [
-        "\ue030"
+        ""
       ]
     },
     {
@@ -271,7 +271,7 @@
       "ascent": 7,
       "height": 15,
       "chars": [
-        "\ue031"
+        ""
       ]
     },
     {
@@ -280,7 +280,7 @@
       "ascent": 7,
       "height": 15,
       "chars": [
-        "\ue032"
+        ""
       ]
     },
     {
@@ -289,7 +289,7 @@
       "ascent": 7,
       "height": 15,
       "chars": [
-        "\ue033"
+        ""
       ]
     },
     {
@@ -298,7 +298,7 @@
       "ascent": 7,
       "height": 15,
       "chars": [
-        "\ue034"
+        ""
       ]
     },
     {
@@ -307,7 +307,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue035"
+        ""
       ]
     },
     {
@@ -316,7 +316,7 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue036"
+        ""
       ]
     },
     {
@@ -325,7 +325,277 @@
       "ascent": 8,
       "height": 9,
       "chars": [
-        "\ue012"
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/team_card.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/health_bg.png",
+      "ascent": 4,
+      "height": 4,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/health_fill.png",
+      "ascent": 4,
+      "height": 4,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/avatar.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/eliminated.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_frame.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_0.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_1.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_2.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_3.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_4.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
       ]
     }
   ]

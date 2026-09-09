@@ -1,0 +1,278 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/team_card.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/health_bg.png",
+      "ascent": 4,
+      "height": 4,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/health_fill.png",
+      "ascent": 4,
+      "height": 4,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/avatar.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/eliminated.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_frame.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_0.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_1.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_2.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_3.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/minimap_row_4.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}
