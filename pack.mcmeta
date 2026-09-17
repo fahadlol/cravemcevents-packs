@@ -3,14 +3,23 @@
     "pack_format": 75,
     "description": "CPvP.events Texture Pack | https://discord.gg/uF3hqfjF29",
     "min_format": 18,
-    "max_format": 999,
+    "max_format": 97,
     "supported_formats": {
       "min_inclusive": 18,
-      "max_inclusive": 999
+      "max_inclusive": 97
     }
   },
   "overlays": {
     "entries": [
+      {
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 83
+        },
+        "directory": "overlay_1_21_11",
+        "min_format": 75,
+        "max_format": 83
+      },
       {
         "formats": {
           "min_inclusive": 18,
@@ -41,11 +50,20 @@
       {
         "formats": {
           "min_inclusive": 88,
-          "max_inclusive": 999
+          "max_inclusive": 96
         },
         "directory": "overlay_26_2",
         "min_format": 88,
-        "max_format": 999
+        "max_format": 96
+      },
+      {
+        "formats": {
+          "min_inclusive": 97,
+          "max_inclusive": 97
+        },
+        "directory": "overlay_26_3",
+        "min_format": 97,
+        "max_format": 97
       }
     ]
   }
