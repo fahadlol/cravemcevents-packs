@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "cravemc:item/storm_wall",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": 2410733
+      }
+    ]
+  }
+}
