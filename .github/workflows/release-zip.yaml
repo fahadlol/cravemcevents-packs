@@ -46,6 +46,26 @@ jobs:
             echo "26.3 particle HUD shader is missing"
             exit 1
           fi
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          metadata = json.loads(Path("pack.mcmeta").read_text(encoding="utf-8"))
+          pack = metadata["pack"]
+          assert pack["pack_format"] == 75
+          assert pack["min_format"] == 75
+          assert pack["max_format"] == [97, 1]
+          assert "supported_formats" not in pack
+          overlay = next(
+              entry for entry in metadata["overlays"]["entries"]
+              if entry["directory"] == "overlay_26_2"
+          )
+          assert overlay["formats"] == {
+              "min_inclusive": [88, 0],
+              "max_inclusive": [88, 0],
+          }
+          print("Minecraft 26.2 metadata verified at resource-pack format 88.0")
+          PY
 
       - name: Generate SHA1
         run: |
