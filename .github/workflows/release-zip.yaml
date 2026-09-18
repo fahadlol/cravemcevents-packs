@@ -58,15 +58,19 @@ jobs:
           assert pack["min_format"] == 75
           assert pack["max_format"] == [97, 1]
           assert "supported_formats" not in pack
-          overlay = next(
-              entry for entry in metadata["overlays"]["entries"]
-              if entry["directory"] == "overlay_26_2"
-          )
-          assert overlay["formats"] == {
-              "min_inclusive": [88, 0],
-              "max_inclusive": [88, 0],
+          expected = {
+              "overlay_1_21_11": (75, 83),
+              "overlay_26": (84, 87),
+              "overlay_26_2": ([88, 0], [88, 0]),
+              "overlay_26_3": (97, [97, 1]),
           }
-          print("Minecraft 26.2 metadata verified at resource-pack format 88.0")
+          entries = {entry["directory"]: entry for entry in metadata["overlays"]["entries"]}
+          for directory, (minimum, maximum) in expected.items():
+              overlay = entries[directory]
+              assert "formats" not in overlay
+              assert overlay["min_format"] == minimum
+              assert overlay["max_format"] == maximum
+          print("Minecraft 1.21.11 and 26.1-26.3 metadata ranges verified")
           PY
 
       - name: Generate SHA1

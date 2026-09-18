@@ -157,6 +157,32 @@ def audit(pack: Path, archive_path: Path | None) -> int:
         if section.get("max_format") != [97, 1]:
             errors.append("pack.max_format must be [97, 1]")
 
+        expected_overlays = {
+            "overlay_1_21_11": (75, 83),
+            "overlay_26": (84, 87),
+            "overlay_26_2": ([88, 0], [88, 0]),
+            "overlay_26_3": (97, [97, 1]),
+        }
+        entries = metadata.get("overlays", {}).get("entries", [])
+        by_directory = {
+            entry.get("directory"): entry
+            for entry in entries
+            if isinstance(entry, dict) and isinstance(entry.get("directory"), str)
+        }
+        for directory, (minimum, maximum) in expected_overlays.items():
+            entry = by_directory.get(directory)
+            if entry is None:
+                errors.append(f"missing required overlay entry: {directory}")
+                continue
+            if "formats" in entry:
+                errors.append(
+                    f"{directory}.formats is forbidden for resource pack formats above 64"
+                )
+            if entry.get("min_format") != minimum or entry.get("max_format") != maximum:
+                errors.append(
+                    f"invalid {directory} range: expected {minimum} through {maximum}"
+                )
+
     for path, data in parsed.items():
         if path.name != "sounds.json" or not isinstance(data, dict):
             continue
