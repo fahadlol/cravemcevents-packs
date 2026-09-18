@@ -37,6 +37,8 @@ jobs:
 
       - name: Verify resource pack
         run: |
+          python3 -m pip install --disable-pip-version-check pillow
+          python3 tools/audit_resource_pack.py . --zip cravemc-events.zip
           unzip -l cravemc-events.zip
           if ! unzip -l cravemc-events.zip | grep -q "pack.mcmeta"; then
             echo "pack.mcmeta is missing from ZIP root"
