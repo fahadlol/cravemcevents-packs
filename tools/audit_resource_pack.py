@@ -38,6 +38,18 @@ def audit(pack: Path, archive_path: Path | None) -> int:
     warnings: list[str] = []
     parsed: dict[Path, object] = {}
 
+    minimap_path = pack / "assets/cravemc/textures/particle/minimap_terrain.png"
+    night_vision_path = pack / "assets/minecraft/textures/mob_effect/night_vision.png"
+    if not night_vision_path.is_file():
+        errors.append("missing Night Vision minimap HUD texture")
+    elif minimap_path.is_file():
+        try:
+            with Image.open(minimap_path) as minimap, Image.open(night_vision_path) as effect_icon:
+                if minimap.convert("RGBA").tobytes() != effect_icon.convert("RGBA").tobytes():
+                    errors.append("Night Vision HUD texture does not match minimap terrain")
+        except Exception as exc:
+            errors.append(f"invalid Night Vision minimap HUD texture: {exc}")
+
     for path in sorted(pack.rglob("*")):
         if not path.is_file():
             continue
