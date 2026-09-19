@@ -35,9 +35,11 @@ vec4 crave_hud_color() {
         float angle = craveHudData.z * 6.28318530718;
         mat2 rotation = mat2(cos(angle), -sin(angle), sin(angle), cos(angle));
         vec2 point = rotation * delta;
-        float arrow = step(abs(point.x), 0.018 - point.y * 0.45)
-                * step(-0.025, point.y) * step(point.y, 0.032);
-        return vec4(1.0, 1.0, 1.0, arrow);
+        float outline = step(abs(point.x), 0.025 - point.y * 0.45)
+                * step(-0.032, point.y) * step(point.y, 0.043);
+        float arrow = step(abs(point.x), 0.017 - point.y * 0.36)
+                * step(-0.024, point.y) * step(point.y, 0.034);
+        return mix(vec4(0.015, 0.02, 0.03, outline), vec4(1.0, 1.0, 1.0, 1.0), arrow);
     }
     float dot = 1.0 - smoothstep(0.014, 0.022, length(delta));
     return vec4(0.12, 0.95, 1.0, dot);
