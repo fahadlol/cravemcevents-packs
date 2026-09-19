@@ -2,8 +2,8 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "cravemc:font/minimap_bossbar.png",
-      "height": 96,
+      "file": "cpvp:hud/maps/reference_map_768.png",
+      "height": 160,
       "ascent": 8,
       "chars": [
         "\ue940"

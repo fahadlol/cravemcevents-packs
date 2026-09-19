@@ -240,42 +240,35 @@ def audit(pack: Path, archive_path: Path | None) -> int:
         default_minimap_provider = any(
             isinstance(provider, dict)
             and provider.get("type") == "bitmap"
-            and provider.get("file") == "cravemc:font/minimap_bossbar.png"
+            and provider.get("file") == "cpvp:hud/maps/reference_map_768.png"
+            and provider.get("height") == 160
             and "\ue940" in provider.get("chars", [])
             for provider in default_font.get("providers", [])
         )
     if not default_minimap_provider:
         errors.append("default font is missing the bossbar minimap marker U+E940")
 
-    text_shaders = (
-        pack / "assets/minecraft/shaders/core/rendertype_text.vsh",
-        pack / "assets/minecraft/shaders/core/rendertype_text.fsh",
-        pack / "overlay_26/assets/minecraft/shaders/core/rendertype_text.vsh",
-        pack / "overlay_26/assets/minecraft/shaders/core/rendertype_text.fsh",
-        pack / "overlay_26_2/assets/minecraft/shaders/core/text.vsh",
-        pack / "overlay_26_2/assets/minecraft/shaders/core/text.fsh",
-        pack / "overlay_26_3/assets/minecraft/shaders/core/text.vsh",
-        pack / "overlay_26_3/assets/minecraft/shaders/core/text.fsh",
-    )
-    for shader in text_shaders:
-        if not shader.is_file() or "craveMinimap" not in shader.read_text(encoding="utf-8"):
-            errors.append(f"bossbar minimap text hook missing: {shader.relative_to(pack)}")
+    default_spacing_provider = False
+    if isinstance(default_font, dict):
+        default_spacing_provider = any(
+            isinstance(provider, dict)
+            and provider.get("type") == "space"
+            and provider.get("advances", {}).get("\uf806") == 64
+            for provider in default_font.get("providers", [])
+        )
+    if not default_spacing_provider:
+        errors.append("default font is missing the 64-pixel minimap spacing glyph U+F806")
 
-    marker_vertex_shaders = (
-        pack / "assets/minecraft/shaders/core/rendertype_text.vsh",
-        pack / "overlay_26/assets/minecraft/shaders/core/rendertype_text.vsh",
-        pack / "overlay_26_2/assets/minecraft/shaders/core/text.vsh",
-        pack / "overlay_26_3/assets/minecraft/shaders/core/text.vsh",
-    )
-    for shader in marker_vertex_shaders:
-        if not shader.is_file():
-            continue
-        source = shader.read_text(encoding="utf-8")
-        if "ivec3(252, 4, 252)" not in source:
-            errors.append(
-                f"bossbar minimap exact-color trigger missing: "
-                f"{shader.relative_to(pack)}"
-            )
+    custom_minimap_font = parsed.get(font_path)
+    if not isinstance(custom_minimap_font, dict) or not any(
+        isinstance(provider, dict)
+        and provider.get("type") == "bitmap"
+        and provider.get("file") == "cpvp:hud/maps/reference_map_768.png"
+        and provider.get("height") == 160
+        and "\ue940" in provider.get("chars", [])
+        for provider in custom_minimap_font.get("providers", [])
+    ):
+        errors.append("custom minimap font does not use the 160-pixel terrain glyph")
 
     for path, data in parsed.items():
         if path.name != "sounds.json" or not isinstance(data, dict):
