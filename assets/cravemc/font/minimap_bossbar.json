@@ -3,8 +3,8 @@
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar.png",
-      "height": 8,
-      "ascent": 7,
+      "height": 96,
+      "ascent": 8,
       "chars": [
         "\ue940"
       ]

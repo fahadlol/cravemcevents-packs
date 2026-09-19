@@ -245,6 +245,27 @@ def audit(pack: Path, archive_path: Path | None) -> int:
         if not shader.is_file() or "craveMinimap" not in shader.read_text(encoding="utf-8"):
             errors.append(f"bossbar minimap text hook missing: {shader.relative_to(pack)}")
 
+    for overlay in ("overlay_26_2", "overlay_26_3"):
+        shader = pack / overlay / "assets/minecraft/shaders/core/text.vsh"
+        if not shader.is_file():
+            continue
+        source = shader.read_text(encoding="utf-8")
+        conditional_depth = 0
+        sampler_depth = None
+        for line in source.splitlines():
+            directive = line.strip()
+            if directive.startswith(("#if ", "#ifdef ", "#ifndef ")):
+                conditional_depth += 1
+            elif directive.startswith("#endif"):
+                conditional_depth = max(0, conditional_depth - 1)
+            elif directive == "uniform sampler2D Sampler0;":
+                sampler_depth = conditional_depth
+        if sampler_depth != 0:
+            errors.append(
+                f"bossbar minimap Sampler0 must be available to the GUI shader variant: "
+                f"{shader.relative_to(pack)}"
+            )
+
     for path, data in parsed.items():
         if path.name != "sounds.json" or not isinstance(data, dict):
             continue

@@ -9,9 +9,9 @@
 in vec3 Position;
 in vec4 Color;
 in vec2 UV0;
+uniform sampler2D Sampler0;
 #if !defined(IS_SEE_THROUGH) && !defined(IS_GUI)
 in ivec2 UV2;
-uniform sampler2D Sampler0;
 uniform sampler2D Sampler2;
 #endif
 
