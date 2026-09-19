@@ -47,6 +47,7 @@ def build(root: Path, output: Path) -> None:
         for path in pack_files(root):
             relative = path.relative_to(root).as_posix()
             info = zipfile.ZipInfo(relative, ZIP_TIMESTAMP)
+            info.create_system = 3
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = (stat.S_IFREG | 0o644) << 16
             contents = path.read_bytes()
