@@ -19,6 +19,7 @@ layout(location = 2) in vec4 vertexColor;
 layout(location = 3) in vec2 texCoord0;
 
 layout(location = 4) flat in int craveMinimap;
+layout(location = 5) in vec2 craveMapUv;
 
 #ifndef OIT_ALPHA_ONLY
 layout(location = 0) out vec4 fragColor;
@@ -54,9 +55,11 @@ void main() {
 
     
     if (craveMinimap != 0) {
+        if (craveMapUv.x < 1.0 || craveMapUv.y < 1.0) {
+            discard;
+        }
         vec4 mapColor = texture(Sampler0, texCoord0);
-        bool marker = mapColor.r > 0.90 && mapColor.b > 0.90 && mapColor.g < 0.12;
-        color = marker ? vec4(0.025, 0.035, 0.05, 0.96) : vec4(mapColor.rgb, 0.96);
+        color = vec4(mapColor.rgb, 0.98);
     }
 
     if (color.a < 0.1) {
