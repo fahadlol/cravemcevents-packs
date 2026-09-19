@@ -39,10 +39,22 @@ vec4 crave_hud_color() {
     }
     if (craveHudType == 2) {
         float distanceFromCenter = length(craveHudUv - craveHudData.xy);
-        float line = 1.0 - smoothstep(0.004, 0.012, abs(distanceFromCenter - craveHudData.z));
-        float outside = smoothstep(craveHudData.z, craveHudData.z + 0.012, distanceFromCenter);
-        return mix(vec4(0.40, 0.08, 0.52, 0.28), vec4(1.0, 0.08, 0.08, 0.96), line)
-                * vec4(1.0, 1.0, 1.0, max(line, outside));
+        float ringDistance = abs(distanceFromCenter - craveHudData.z);
+        float outerGlow = 1.0 - smoothstep(0.004, 0.020, ringDistance);
+        float core = 1.0 - smoothstep(0.003, 0.008, ringDistance);
+        float outside = smoothstep(craveHudData.z + 0.006, craveHudData.z + 0.022, distanceFromCenter);
+        vec4 unsafeWash = vec4(0.36, 0.04, 0.52, outside * 0.16);
+        vec4 glow = vec4(1.0, 0.10, 0.16, outerGlow * 0.72);
+        vec4 ring = vec4(1.0, 0.86, 0.90, core);
+        return mix(mix(unsafeWash, glow, outerGlow), ring, core);
+    }
+    if (craveHudType == 5) {
+        vec2 delta = craveHudUv - craveHudData.xy;
+        float distanceFromCenter = length(delta);
+        float ring = 1.0 - smoothstep(0.004, 0.010,
+                abs(distanceFromCenter - craveHudData.z));
+        float dash = step(0.46, fract(atan(delta.y, delta.x) * 5.092958 + 8.0));
+        return vec4(0.18, 0.92, 1.0, ring * dash * 0.92);
     }
     vec2 delta = craveHudUv - craveHudData.xy;
     if (craveHudType == 3) {

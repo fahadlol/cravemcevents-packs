@@ -40,15 +40,21 @@ def audit(pack: Path, archive_path: Path | None) -> int:
 
     minimap_path = pack / "assets/cravemc/textures/particle/minimap_terrain.png"
     night_vision_path = pack / "assets/minecraft/textures/mob_effect/night_vision.png"
-    if not night_vision_path.is_file():
-        errors.append("missing Night Vision minimap HUD texture")
-    elif minimap_path.is_file():
+    detailed_map_path = pack / "assets/cpvp/textures/hud/maps/reference_map_768.png"
+    for path, expected_size, label in (
+        (minimap_path, (256, 256), "particle minimap"),
+        (night_vision_path, (768, 768), "Night Vision minimap"),
+        (detailed_map_path, (768, 768), "detailed minimap source"),
+    ):
+        if not path.is_file():
+            errors.append(f"missing {label} texture")
+            continue
         try:
-            with Image.open(minimap_path) as minimap, Image.open(night_vision_path) as effect_icon:
-                if minimap.convert("RGBA").tobytes() != effect_icon.convert("RGBA").tobytes():
-                    errors.append("Night Vision HUD texture does not match minimap terrain")
+            with Image.open(path) as image:
+                if image.size != expected_size:
+                    errors.append(f"invalid {label} size: {image.size}, expected {expected_size}")
         except Exception as exc:
-            errors.append(f"invalid Night Vision minimap HUD texture: {exc}")
+            errors.append(f"invalid {label} texture: {exc}")
 
     for path in sorted(pack.rglob("*")):
         if not path.is_file():
@@ -206,6 +212,12 @@ def audit(pack: Path, archive_path: Path | None) -> int:
             source = shader.read_text(encoding="utf-8")
             if "craveMapIcon" not in source:
                 errors.append(f"minimap GUI hook missing: {overlay}/{name}")
+        particle_vertex = core / "particle.vsh"
+        particle_fragment = core / "particle.fsh"
+        if not particle_vertex.is_file() or "craveHudType = 5" not in particle_vertex.read_text(encoding="utf-8"):
+            errors.append(f"next-zone control channel missing: {overlay}/particle.vsh")
+        if not particle_fragment.is_file() or "float dash = step(0.46" not in particle_fragment.read_text(encoding="utf-8"):
+            errors.append(f"next-zone dashed ring missing: {overlay}/particle.fsh")
 
     for path, data in parsed.items():
         if path.name != "sounds.json" or not isinstance(data, dict):

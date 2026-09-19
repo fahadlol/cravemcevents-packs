@@ -55,6 +55,8 @@ void main() {
         craveHudType = 3;
     } else if (freshControl && typeRatio > 3.65 && typeRatio < 4.35) {
         craveHudType = 4;
+    } else if (freshControl && typeRatio > 4.65 && typeRatio < 5.35) {
+        craveHudType = 5;
     }
 
     if (craveHudType != 0) {
