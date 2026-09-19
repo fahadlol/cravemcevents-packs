@@ -195,6 +195,18 @@ def audit(pack: Path, archive_path: Path | None) -> int:
                     f"invalid {directory} range: expected {minimum} through {maximum}"
                 )
 
+    gui_overlays = ("overlay_1_21_11", "overlay_26", "overlay_26_2", "overlay_26_3")
+    for overlay in gui_overlays:
+        core = pack / overlay / "assets/minecraft/shaders/core"
+        for name in ("position_tex.vsh", "position_tex.fsh", "position_tex_color.vsh", "position_tex_color.fsh"):
+            shader = core / name
+            if not shader.is_file():
+                errors.append(f"missing minimap GUI shader: {overlay}/{name}")
+                continue
+            source = shader.read_text(encoding="utf-8")
+            if "craveMapIcon" not in source:
+                errors.append(f"minimap GUI hook missing: {overlay}/{name}")
+
     for path, data in parsed.items():
         if path.name != "sounds.json" or not isinstance(data, dict):
             continue

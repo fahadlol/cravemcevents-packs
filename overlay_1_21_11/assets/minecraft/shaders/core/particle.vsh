@@ -59,9 +59,9 @@ void main() {
 
     if (craveHudType != 0) {
         vec2 local = crave_corner_uv();
-        float hudSize = min(240.0, min(ScreenSize.x, ScreenSize.y) - 24.0);
-        vec2 pixel = vec2(ScreenSize.x - 12.0 - hudSize + local.x * hudSize,
-                12.0 + local.y * hudSize);
+        float hudSize = min(360.0, min(ScreenSize.x, ScreenSize.y) * 0.32);
+        vec2 pixel = vec2(ScreenSize.x - 18.0 - hudSize + local.x * hudSize,
+                18.0 + local.y * hudSize);
         vec2 ndc = vec2(pixel.x * 2.0 / ScreenSize.x - 1.0,
                 1.0 - pixel.y * 2.0 / ScreenSize.y);
         gl_Position = vec4(ndc, -1.0, 1.0);
