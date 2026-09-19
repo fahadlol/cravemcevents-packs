@@ -21,19 +21,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build resource pack ZIP
-        run: |
-          rm -f cravemc-events.zip
-          zip -r cravemc-events.zip \
-            assets \
-            shaders \
-            overlay_1_20_2 \
-            overlay_1_21_4 \
-            overlay_1_21_11 \
-            overlay_26 \
-            overlay_26_2 \
-            overlay_26_3 \
-            pack.mcmeta \
-            pack.png
+        run: python3 tools/build_resource_pack.py . cravemc-events.zip
 
       - name: Verify resource pack
         run: |
