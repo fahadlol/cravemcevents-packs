@@ -61,6 +61,7 @@ def audit(pack: Path, archive_path: Path | None) -> int:
     font_path = pack / "assets/cravemc/font/minimap_bossbar.json"
     if not font_path.is_file():
         errors.append("missing bossbar minimap font")
+    default_font_path = pack / "assets/minecraft/font/default.json"
     for sprite_name in ("white_background.png", "white_progress.png"):
         sprite = pack / "assets/minecraft/textures/gui/sprites/boss_bar" / sprite_name
         if not sprite.is_file():
@@ -233,9 +234,24 @@ def audit(pack: Path, archive_path: Path | None) -> int:
         if not particle_fragment.is_file() or "float dash = step(0.46" not in particle_fragment.read_text(encoding="utf-8"):
             errors.append(f"next-zone dashed ring missing: {overlay}/particle.fsh")
 
+    default_font = parsed.get(default_font_path)
+    default_minimap_provider = False
+    if isinstance(default_font, dict):
+        default_minimap_provider = any(
+            isinstance(provider, dict)
+            and provider.get("type") == "bitmap"
+            and provider.get("file") == "cravemc:font/minimap_bossbar.png"
+            and "\ue940" in provider.get("chars", [])
+            for provider in default_font.get("providers", [])
+        )
+    if not default_minimap_provider:
+        errors.append("default font is missing the bossbar minimap marker U+E940")
+
     text_shaders = (
         pack / "assets/minecraft/shaders/core/rendertype_text.vsh",
         pack / "assets/minecraft/shaders/core/rendertype_text.fsh",
+        pack / "overlay_26/assets/minecraft/shaders/core/rendertype_text.vsh",
+        pack / "overlay_26/assets/minecraft/shaders/core/rendertype_text.fsh",
         pack / "overlay_26_2/assets/minecraft/shaders/core/text.vsh",
         pack / "overlay_26_2/assets/minecraft/shaders/core/text.fsh",
         pack / "overlay_26_3/assets/minecraft/shaders/core/text.vsh",
@@ -245,24 +261,19 @@ def audit(pack: Path, archive_path: Path | None) -> int:
         if not shader.is_file() or "craveMinimap" not in shader.read_text(encoding="utf-8"):
             errors.append(f"bossbar minimap text hook missing: {shader.relative_to(pack)}")
 
-    for overlay in ("overlay_26_2", "overlay_26_3"):
-        shader = pack / overlay / "assets/minecraft/shaders/core/text.vsh"
+    marker_vertex_shaders = (
+        pack / "assets/minecraft/shaders/core/rendertype_text.vsh",
+        pack / "overlay_26/assets/minecraft/shaders/core/rendertype_text.vsh",
+        pack / "overlay_26_2/assets/minecraft/shaders/core/text.vsh",
+        pack / "overlay_26_3/assets/minecraft/shaders/core/text.vsh",
+    )
+    for shader in marker_vertex_shaders:
         if not shader.is_file():
             continue
         source = shader.read_text(encoding="utf-8")
-        conditional_depth = 0
-        sampler_depth = None
-        for line in source.splitlines():
-            directive = line.strip()
-            if directive.startswith(("#if ", "#ifdef ", "#ifndef ")):
-                conditional_depth += 1
-            elif directive.startswith("#endif"):
-                conditional_depth = max(0, conditional_depth - 1)
-            elif directive == "uniform sampler2D Sampler0;":
-                sampler_depth = conditional_depth
-        if sampler_depth != 0:
+        if "ivec3(252, 4, 252)" not in source:
             errors.append(
-                f"bossbar minimap Sampler0 must be available to the GUI shader variant: "
+                f"bossbar minimap exact-color trigger missing: "
                 f"{shader.relative_to(pack)}"
             )
 

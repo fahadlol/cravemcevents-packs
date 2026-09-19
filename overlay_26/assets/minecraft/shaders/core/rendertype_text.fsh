@@ -11,6 +11,7 @@
                 in vec4 vertexColor;
                 in vec2 texCoord0;
                 in vec4 effectData;
+                flat in int craveMinimap;
 
                 out vec4 fragColor;
 
@@ -56,6 +57,12 @@ vec3 hsv2rgb(vec3 c) {
                     }
 
                     color = texColor;
+
+                    if (craveMinimap != 0) {
+                        vec4 mapColor = texture(Sampler0, texCoord0);
+                        bool marker = mapColor.r > 0.90 && mapColor.b > 0.90 && mapColor.g < 0.12;
+                        color = marker ? vec4(0.025, 0.035, 0.05, 0.96) : vec4(mapColor.rgb, 0.96);
+                    }
 
                     if (color.a < 0.1) {
                         discard;

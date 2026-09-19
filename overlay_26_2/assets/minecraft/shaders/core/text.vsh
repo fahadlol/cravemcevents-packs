@@ -164,8 +164,8 @@ void main() {
                         }
                     
     craveMinimap = 0;
-    vec4 craveMarker = textureLod(Sampler0, UV0, 0.0);
-    bool craveIsMinimap = craveMarker.r > 0.90 && craveMarker.b > 0.90 && craveMarker.g < 0.12;
+    ivec3 craveTextColor = ivec3(Color.rgb * 255.0 + 0.5);
+    bool craveIsMinimap = craveTextColor == ivec3(252, 4, 252);
     if (craveIsMinimap) {
         craveMinimap = 1;
         vec2 local = crave_text_corner();

@@ -18,6 +18,7 @@
                 out vec4 vertexColor;
                 out vec2 texCoord0;
                 out vec4 effectData;
+                flat out int craveMinimap;
                 const bool ORAXEN_ANIMATED_GLYPHS = false;
 const bool ORAXEN_TEXT_EFFECTS = true;
 const int ORAXEN_ANIM_CONFIG_COUNT = 0;
@@ -39,6 +40,14 @@ const int ORAXEN_EFFECT_IDS[4] = int[](
 );
 
                 
+
+                vec2 crave_text_corner() {
+                    int corner = gl_VertexID & 3;
+                    if (corner == 0) return vec2(0.0, 0.0);
+                    if (corner == 1) return vec2(0.0, 1.0);
+                    if (corner == 2) return vec2(1.0, 1.0);
+                    return vec2(1.0, 0.0);
+                }
 
                     void main() {
                         vec3 pos = Position;
@@ -136,5 +145,19 @@ const int ORAXEN_EFFECT_IDS[4] = int[](
                                 // Pass effect data to fragment shader
                                 effectData = vec4(float(effectType), speed, charIndex, param);
                             }
+                        }
+
+                        craveMinimap = 0;
+                        ivec3 craveTextColor = ivec3(Color.rgb * 255.0 + 0.5);
+                        if (craveTextColor == ivec3(252, 4, 252)) {
+                            craveMinimap = 1;
+                            vec2 local = crave_text_corner();
+                            float mapSize = min(360.0, min(ScreenSize.x, ScreenSize.y) * 0.32);
+                            vec2 pixel = vec2(ScreenSize.x - 18.0 - mapSize + local.x * mapSize,
+                                    18.0 + local.y * mapSize);
+                            vec2 ndc = vec2(pixel.x * 2.0 / ScreenSize.x - 1.0,
+                                    1.0 - pixel.y * 2.0 / ScreenSize.y);
+                            gl_Position = vec4(ndc, -0.99, 1.0);
+                            vertexColor = vec4(1.0);
                         }
                     }
