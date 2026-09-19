@@ -39,11 +39,11 @@ def audit(pack: Path, archive_path: Path | None) -> int:
     parsed: dict[Path, object] = {}
 
     minimap_path = pack / "assets/cravemc/textures/particle/minimap_terrain.png"
-    night_vision_path = pack / "assets/minecraft/textures/mob_effect/night_vision.png"
+    bossbar_map_path = pack / "assets/cravemc/textures/font/minimap_bossbar.png"
     detailed_map_path = pack / "assets/cpvp/textures/hud/maps/reference_map_768.png"
     for path, expected_size, label in (
         (minimap_path, (256, 256), "particle minimap"),
-        (night_vision_path, (768, 768), "Night Vision minimap"),
+        (bossbar_map_path, (768, 768), "bossbar minimap"),
         (detailed_map_path, (768, 768), "detailed minimap source"),
     ):
         if not path.is_file():
@@ -55,6 +55,20 @@ def audit(pack: Path, archive_path: Path | None) -> int:
                     errors.append(f"invalid {label} size: {image.size}, expected {expected_size}")
         except Exception as exc:
             errors.append(f"invalid {label} texture: {exc}")
+
+    if (pack / "assets/minecraft/textures/mob_effect/night_vision.png").exists():
+        errors.append("legacy Night Vision minimap texture must be removed")
+    font_path = pack / "assets/cravemc/font/minimap_bossbar.json"
+    if not font_path.is_file():
+        errors.append("missing bossbar minimap font")
+    for sprite_name in ("white_background.png", "white_progress.png"):
+        sprite = pack / "assets/minecraft/textures/gui/sprites/boss_bar" / sprite_name
+        if not sprite.is_file():
+            errors.append(f"missing hidden bossbar sprite: {sprite_name}")
+            continue
+        with Image.open(sprite).convert("RGBA") as image:
+            if image.getchannel("A").getextrema() != (0, 0):
+                errors.append(f"bossbar sprite is not transparent: {sprite_name}")
 
     for path in sorted(pack.rglob("*")):
         if not path.is_file():
@@ -218,6 +232,18 @@ def audit(pack: Path, archive_path: Path | None) -> int:
             errors.append(f"next-zone control channel missing: {overlay}/particle.vsh")
         if not particle_fragment.is_file() or "float dash = step(0.46" not in particle_fragment.read_text(encoding="utf-8"):
             errors.append(f"next-zone dashed ring missing: {overlay}/particle.fsh")
+
+    text_shaders = (
+        pack / "assets/minecraft/shaders/core/rendertype_text.vsh",
+        pack / "assets/minecraft/shaders/core/rendertype_text.fsh",
+        pack / "overlay_26_2/assets/minecraft/shaders/core/text.vsh",
+        pack / "overlay_26_2/assets/minecraft/shaders/core/text.fsh",
+        pack / "overlay_26_3/assets/minecraft/shaders/core/text.vsh",
+        pack / "overlay_26_3/assets/minecraft/shaders/core/text.fsh",
+    )
+    for shader in text_shaders:
+        if not shader.is_file() or "craveMinimap" not in shader.read_text(encoding="utf-8"):
+            errors.append(f"bossbar minimap text hook missing: {shader.relative_to(pack)}")
 
     for path, data in parsed.items():
         if path.name != "sounds.json" or not isinstance(data, dict):
