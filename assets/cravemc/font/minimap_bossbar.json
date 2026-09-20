@@ -2,12 +2,185 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "cpvp:hud/maps/reference_map_768.png",
-      "height": 160,
+      "file": "cravemc:font/minimap_bossbar_row_0.png",
+      "height": 16,
       "ascent": 8,
-      "chars": [
-        "\ue940"
-      ]
+      "chars": ["\uea00"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_1.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea01"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_2.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea02"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_3.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea03"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_4.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea04"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_5.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea05"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_6.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea06"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_7.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea07"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_8.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea08"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cravemc:font/minimap_bossbar_row_9.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea09"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea10"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea11"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea12"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea13"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea14"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea15"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea16"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea17"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea18"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea19"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea1a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea1b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea1c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea1d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea1e"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea1f"]
     }
   ]
 }
