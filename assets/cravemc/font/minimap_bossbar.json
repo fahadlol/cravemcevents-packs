@@ -3,198 +3,3332 @@
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_0.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea00"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea00"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_1.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea01"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea01"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_2.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea02"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea02"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_3.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea03"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea03"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_4.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea04"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea04"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_5.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea05"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea05"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_6.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea06"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea06"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_7.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea07"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea07"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_8.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": ["\uea08"]
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea08"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cravemc:font/minimap_bossbar_row_9.png",
+      "height": 19,
+      "ascent": 9,
+      "chars": [
+        "\uea09"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
       "height": 16,
-      "ascent": 8,
-      "chars": ["\uea09"]
+      "ascent": 9,
+      "chars": [
+        "\uea10"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea11"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea12"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea13"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea14"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea15"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea16"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea17"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea18"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea19"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea1a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea1b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea1c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea1d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea1e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea1f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea20"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uea21"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb00"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_000.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea10"]
+      "chars": [
+        "\ueb01"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb02"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb03"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb04"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb05"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb06"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb07"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb08"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb09"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb0a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb0b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb0c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb0d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb0e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb0f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb10"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb11"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_000.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb12"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb13"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_023.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea11"]
+      "chars": [
+        "\ueb14"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb15"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb16"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb17"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb18"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb19"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb1a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb1b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb1c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb1d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb1e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb1f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb20"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb21"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb22"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb23"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb24"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_023.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb25"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb26"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_045.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea12"]
+      "chars": [
+        "\ueb27"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb28"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb29"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb2a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb2b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb2c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb2d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb2e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb2f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb30"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb31"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb32"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb33"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb34"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb35"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb36"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb37"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_045.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb38"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb39"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_068.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea13"]
+      "chars": [
+        "\ueb3a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb3b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb3c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb3d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb3e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb3f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb40"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb41"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb42"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb43"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb44"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb45"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb46"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb47"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb48"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb49"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb4a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_068.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb4b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb4c"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_090.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea14"]
+      "chars": [
+        "\ueb4d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb4e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb4f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb50"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb51"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb52"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb53"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb54"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb55"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb56"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb57"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb58"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb59"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb5a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb5b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb5c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb5d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_090.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb5e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb5f"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_113.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea15"]
+      "chars": [
+        "\ueb60"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb61"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb62"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb63"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb64"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb65"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb66"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb67"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb68"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb69"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb6a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb6b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb6c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb6d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb6e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb6f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb70"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_113.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb71"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb72"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_135.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea16"]
+      "chars": [
+        "\ueb73"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb74"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb75"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb76"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb77"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb78"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb79"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb7a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb7b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb7c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb7d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb7e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb7f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb80"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb81"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb82"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb83"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_135.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb84"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb85"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_158.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea17"]
+      "chars": [
+        "\ueb86"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb87"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb88"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb89"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb8a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb8b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb8c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueb8d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueb8e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueb8f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueb90"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueb91"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueb92"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueb93"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueb94"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueb95"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueb96"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_158.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\ueb97"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\ueb98"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_180.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea18"]
+      "chars": [
+        "\ueb99"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\ueb9a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\ueb9b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\ueb9c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\ueb9d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\ueb9e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\ueb9f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\ueba0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\ueba1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\ueba2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\ueba3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\ueba4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\ueba5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\ueba6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\ueba7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\ueba8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\ueba9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_180.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uebaa"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uebab"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_203.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea19"]
+      "chars": [
+        "\uebac"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uebad"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uebae"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uebaf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uebb0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uebb1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uebb2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uebb3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uebb4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uebb5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uebb6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uebb7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uebb8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uebb9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uebba"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uebbb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uebbc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_203.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uebbd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uebbe"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_225.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea1a"]
+      "chars": [
+        "\uebbf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uebc0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uebc1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uebc2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uebc3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uebc4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uebc5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uebc6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uebc7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uebc8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uebc9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uebca"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uebcb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uebcc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uebcd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uebce"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uebcf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_225.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uebd0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uebd1"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_248.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea1b"]
+      "chars": [
+        "\uebd2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uebd3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uebd4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uebd5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uebd6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uebd7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uebd8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uebd9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uebda"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uebdb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uebdc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uebdd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uebde"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uebdf"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uebe0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uebe1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uebe2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_248.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uebe3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uebe4"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_270.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea1c"]
+      "chars": [
+        "\uebe5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uebe6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uebe7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uebe8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uebe9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uebea"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uebeb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uebec"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uebed"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uebee"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uebef"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uebf0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uebf1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uebf2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uebf3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uebf4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uebf5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_270.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uebf6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uebf7"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_293.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea1d"]
+      "chars": [
+        "\uebf8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uebf9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uebfa"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uebfb"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uebfc"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uebfd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uebfe"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uebff"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uec00"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uec01"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uec02"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uec03"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uec04"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uec05"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uec06"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uec07"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uec08"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_293.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uec09"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uec0a"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_315.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea1e"]
+      "chars": [
+        "\uec0b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uec0c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uec0d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uec0e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uec0f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uec10"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uec11"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uec12"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uec13"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uec14"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uec15"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uec16"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uec17"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uec18"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uec19"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uec1a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uec1b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_315.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uec1c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uec1d"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/arrow_338.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea1f"]
+      "chars": [
+        "\uec1e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uec1f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uec20"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uec21"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uec22"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uec23"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uec24"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uec25"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uec26"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uec27"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uec28"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uec29"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uec2a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uec2b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uec2c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uec2d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uec2e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/arrow_338.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uec2f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uec30"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/marker_team.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea20"]
+      "chars": [
+        "\uec31"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uec32"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uec33"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uec34"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uec35"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uec36"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uec37"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uec38"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uec39"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uec3a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uec3b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uec3c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uec3d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uec3e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uec3f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uec40"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uec41"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uec42"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 9,
+      "chars": [
+        "\uec43"
+      ]
     },
     {
       "type": "bitmap",
       "file": "cpvp:hud/br/marker_self.png",
       "height": 16,
       "ascent": 8,
-      "chars": ["\uea21"]
+      "chars": [
+        "\uec44"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 7,
+      "chars": [
+        "\uec45"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 6,
+      "chars": [
+        "\uec46"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 5,
+      "chars": [
+        "\uec47"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 4,
+      "chars": [
+        "\uec48"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 3,
+      "chars": [
+        "\uec49"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 2,
+      "chars": [
+        "\uec4a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 1,
+      "chars": [
+        "\uec4b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 0,
+      "chars": [
+        "\uec4c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -1,
+      "chars": [
+        "\uec4d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -2,
+      "chars": [
+        "\uec4e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -3,
+      "chars": [
+        "\uec4f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -4,
+      "chars": [
+        "\uec50"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -5,
+      "chars": [
+        "\uec51"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -6,
+      "chars": [
+        "\uec52"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -7,
+      "chars": [
+        "\uec53"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -8,
+      "chars": [
+        "\uec54"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": -9,
+      "chars": [
+        "\uec55"
+      ]
     },
     {
       "type": "space",
