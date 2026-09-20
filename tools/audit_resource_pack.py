@@ -61,9 +61,9 @@ def audit(pack: Path, archive_path: Path | None) -> int:
             continue
         try:
             with Image.open(path) as image:
-                if image.size != (160, 16):
+                if image.size not in ((160, 16), (190, 19)):
                     errors.append(
-                        f"invalid bossbar minimap row {row} size: {image.size}, expected (160, 16)"
+                        f"invalid bossbar minimap row {row} size: {image.size}, expected (190, 19) or (160, 16)"
                     )
         except Exception as exc:
             errors.append(f"invalid bossbar minimap row {row}: {exc}")
@@ -280,12 +280,13 @@ def audit(pack: Path, archive_path: Path | None) -> int:
         for char in provider.get("chars", [])
     }
     for row in range(10):
-        expected = (
-            f"cravemc:font/minimap_bossbar_row_{row}.png",
-            16,
-            chr(0xEA00 + row),
+        found = any(
+            g[0] == f"cravemc:font/minimap_bossbar_row_{row}.png"
+            and g[1] in (16, 19)
+            and g[2] == chr(0xEA00 + row)
+            for g in bitmap_glyphs
         )
-        if expected not in bitmap_glyphs:
+        if not found:
             errors.append(f"custom minimap font is missing terrain row glyph {row}")
 
     arrow_angles = (0, 23, 45, 68, 90, 113, 135, 158, 180, 203, 225, 248, 270, 293, 315, 338)
