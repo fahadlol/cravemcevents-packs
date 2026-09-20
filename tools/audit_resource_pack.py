@@ -39,11 +39,9 @@ def audit(pack: Path, archive_path: Path | None) -> int:
     parsed: dict[Path, object] = {}
 
     minimap_path = pack / "assets/cravemc/textures/particle/minimap_terrain.png"
-    bossbar_map_path = pack / "assets/cravemc/textures/font/minimap_bossbar.png"
     detailed_map_path = pack / "assets/cpvp/textures/hud/maps/reference_map_768.png"
     for path, expected_size, label in (
         (minimap_path, (256, 256), "particle minimap"),
-        (bossbar_map_path, (768, 768), "bossbar minimap"),
         (detailed_map_path, (768, 768), "detailed minimap source"),
     ):
         if not path.is_file():
@@ -55,6 +53,20 @@ def audit(pack: Path, archive_path: Path | None) -> int:
                     errors.append(f"invalid {label} size: {image.size}, expected {expected_size}")
         except Exception as exc:
             errors.append(f"invalid {label} texture: {exc}")
+
+    for row in range(10):
+        path = pack / f"assets/cravemc/textures/font/minimap_bossbar_row_{row}.png"
+        if not path.is_file():
+            errors.append(f"missing bossbar minimap row texture: {row}")
+            continue
+        try:
+            with Image.open(path) as image:
+                if image.size != (160, 16):
+                    errors.append(
+                        f"invalid bossbar minimap row {row} size: {image.size}, expected (160, 16)"
+                    )
+        except Exception as exc:
+            errors.append(f"invalid bossbar minimap row {row}: {exc}")
 
     if (pack / "assets/minecraft/textures/mob_effect/night_vision.png").exists():
         errors.append("legacy Night Vision minimap texture must be removed")
@@ -260,15 +272,31 @@ def audit(pack: Path, archive_path: Path | None) -> int:
         errors.append("default font is missing the 64-pixel minimap spacing glyph U+F806")
 
     custom_minimap_font = parsed.get(font_path)
-    if not isinstance(custom_minimap_font, dict) or not any(
-        isinstance(provider, dict)
-        and provider.get("type") == "bitmap"
-        and provider.get("file") == "cpvp:hud/maps/reference_map_768.png"
-        and provider.get("height") == 160
-        and "\ue940" in provider.get("chars", [])
-        for provider in custom_minimap_font.get("providers", [])
-    ):
-        errors.append("custom minimap font does not use the 160-pixel terrain glyph")
+    providers = custom_minimap_font.get("providers", []) if isinstance(custom_minimap_font, dict) else []
+    bitmap_glyphs = {
+        (provider.get("file"), provider.get("height"), char)
+        for provider in providers
+        if isinstance(provider, dict) and provider.get("type") == "bitmap"
+        for char in provider.get("chars", [])
+    }
+    for row in range(10):
+        expected = (
+            f"cravemc:font/minimap_bossbar_row_{row}.png",
+            16,
+            chr(0xEA00 + row),
+        )
+        if expected not in bitmap_glyphs:
+            errors.append(f"custom minimap font is missing terrain row glyph {row}")
+
+    arrow_angles = (0, 23, 45, 68, 90, 113, 135, 158, 180, 203, 225, 248, 270, 293, 315, 338)
+    for direction, angle in enumerate(arrow_angles):
+        expected = (
+            f"cpvp:hud/br/arrow_{angle:03d}.png",
+            16,
+            chr(0xEA10 + direction),
+        )
+        if expected not in bitmap_glyphs:
+            errors.append(f"custom minimap font is missing arrow glyph {direction}")
 
     for path, data in parsed.items():
         if path.name != "sounds.json" or not isinstance(data, dict):
