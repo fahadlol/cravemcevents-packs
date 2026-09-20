@@ -181,6 +181,47 @@
       "height": 16,
       "ascent": 8,
       "chars": ["\uea1f"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_team.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea20"]
+    },
+    {
+      "type": "bitmap",
+      "file": "cpvp:hud/br/marker_self.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": ["\uea21"]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\uF800": 1,
+        "\uF801": 2,
+        "\uF802": 4,
+        "\uF803": 8,
+        "\uF804": 16,
+        "\uF805": 32,
+        "\uF806": 64,
+        "\uF807": 128,
+        "\uF808": 256,
+        "\uF809": 512,
+        "\uF80A": 1024,
+        "\uF80B": -1,
+        "\uF80C": -2,
+        "\uF80D": -4,
+        "\uF80E": -8,
+        "\uF80F": -16,
+        "\uF810": -32,
+        "\uF811": -64,
+        "\uF812": -128,
+        "\uF813": -256,
+        "\uF814": -512,
+        "\uF815": -1024
+      }
     }
   ]
 }
