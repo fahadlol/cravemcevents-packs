@@ -14,9 +14,6 @@
 
                 out vec4 fragColor;
 
-flat in int craveMinimap;
-in vec2 craveMapUv;
-
                 // HSV to RGB conversion for rainbow effect
 vec3 hsv2rgb(vec3 c) {
     vec4 K = vec4(1.0, 2.0/3.0, 1.0/3.0, 3.0);
@@ -61,14 +58,6 @@ vec3 hsv2rgb(vec3 c) {
                     color = texColor;
 
                     
-    if (craveMinimap != 0) {
-        if (craveMapUv.x < 1.0 || craveMapUv.y < 1.0) {
-            discard;
-        }
-        vec4 mapColor = texture(Sampler0, texCoord0);
-        color = vec4(mapColor.rgb, 0.98);
-    }
-
     if (color.a < 0.1) {
                         discard;
                     }
