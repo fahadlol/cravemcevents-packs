@@ -42,13 +42,13 @@ layout(location = 7) in vec2 texCoordGlint;
 layout(location = 0) out vec4 fragColor;
 #endif
 
-vec4 calculateFinalColor(vec4 color) {
+vec4 calculateFinalColor(vec4 color, bool craveStorm) {
     #ifndef NO_OVERLAY
-    color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
+    if (!craveStorm) color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
     #endif
 
     #ifndef EMISSIVE
-    color *= lightMapColor;
+    if (!craveStorm) color *= lightMapColor;
     #endif
 
     #ifdef GLINT
@@ -73,10 +73,9 @@ bool crave_is_storm_texel(vec3 rgb) {
 }
 
 float crave_storm_alpha(vec2 uv, float texture_alpha) {
-    float phase = sin((uv.x + uv.y) * 150.0 - GameTime * 1800.0);
-    float stripe = smoothstep(0.15, 0.70, phase);
+    // Stripe shape/animation comes from the shared texture, not atlas UVs.
     float pulse = 0.78 + 0.22 * sin(GameTime * 900.0);
-    return texture_alpha * stripe * pulse * 0.72;
+    return texture_alpha * pulse * 0.72;
 }
 
 vec3 crave_storm_color(vec3 encoded) {
@@ -99,6 +98,7 @@ vec3 crave_storm_color(vec3 encoded) {
     return best;
 }
 
+layout(location = 15) in vec4 craveStormTint;
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
     bool craveStorm = crave_is_storm_texel(color.rgb);
@@ -128,7 +128,7 @@ void main() {
     #endif
 
     if (craveStorm) {
-        color = vec4(crave_storm_color(faceVertexColor.rgb) * ColorModulator.rgb,
+        color = vec4(crave_storm_color(craveStormTint.rgb) * ColorModulator.rgb,
                 crave_storm_alpha(texCoord0, color.a) * ColorModulator.a);
     } else {
         color *= faceVertexColor * ColorModulator;
@@ -144,6 +144,6 @@ void main() {
     #ifdef OIT_ALPHA_ONLY
     executeAlphaOnlyPhase(gl_FragCoord.z, color.a);
     #else
-    fragColor = calculateFinalColor(color);
+    fragColor = calculateFinalColor(color, craveStorm);
     #endif
 }

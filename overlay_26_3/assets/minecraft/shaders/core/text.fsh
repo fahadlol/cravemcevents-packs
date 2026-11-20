@@ -18,9 +18,6 @@ layout(location = 1) in float cylindricalVertexDistance;
 layout(location = 2) in vec4 vertexColor;
 layout(location = 3) in vec2 texCoord0;
 
-layout(location = 4) flat in int craveMinimap;
-layout(location = 5) in vec2 craveMapUv;
-
 #ifndef OIT_ALPHA_ONLY
 layout(location = 0) out vec4 fragColor;
 #endif
@@ -44,6 +41,9 @@ vec4 calculateFinalColor(vec4 color) {
     return color;
 }
 
+layout(location = 4) flat in int craveHud;
+layout(location = 5) in vec2 craveHudUv;
+
 void main() {
     #ifdef IS_GRAYSCALE
     vec4 texColor = texture(Sampler0, texCoord0).rrrr;
@@ -54,12 +54,12 @@ void main() {
     vec4 color = texColor * vertexColor * ColorModulator;
 
     
-    if (craveMinimap != 0) {
-        if (craveMapUv.x < 1.0 || craveMapUv.y < 1.0) {
-            discard;
-        }
-        vec4 mapColor = texture(Sampler0, texCoord0);
-        color = vec4(mapColor.rgb, 0.98);
+    if (craveHud != 0) {
+        // Suppress only the shadow of a tagged HUD glyph, never a text color globally.
+        if (craveHud == 2) discard;
+        ivec4 tag = ivec4(round(texture(Sampler0, texCoord0) * 255.0));
+        if (tag.r == 19 && tag.g == 37 && tag.a == 255 && tag.b >= 71 && tag.b <= 86) discard;
+        color = texture(Sampler0, texCoord0) * ColorModulator;
     }
 
     if (color.a < 0.1) {

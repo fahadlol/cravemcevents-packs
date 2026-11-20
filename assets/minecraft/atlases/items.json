@@ -6,64 +6,1129 @@
       "prefix": "item/"
     },
     {
-      "type": "directory",
-      "source": "cpvp:animals",
-      "prefix": "cpvp:animals/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/capybara_hat",
+      "sprite": "cpvp:animals/capybara_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:border",
-      "prefix": "cpvp:border/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/cat_hat",
+      "sprite": "cpvp:animals/cat_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:characters",
-      "prefix": "cpvp:characters/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/cat_hat_1",
+      "sprite": "cpvp:animals/cat_hat_1"
     },
     {
-      "type": "directory",
-      "source": "cpvp:custom",
-      "prefix": "cpvp:custom/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/cat_hat_2",
+      "sprite": "cpvp:animals/cat_hat_2"
     },
     {
-      "type": "directory",
-      "source": "cpvp:entity",
-      "prefix": "cpvp:entity/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/chicken_hat",
+      "sprite": "cpvp:animals/chicken_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:exlr8_cosmetics",
-      "prefix": "cpvp:exlr8_cosmetics/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/cow_hat",
+      "sprite": "cpvp:animals/cow_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:exlr8_hats",
-      "prefix": "cpvp:exlr8_hats/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/deer_hat",
+      "sprite": "cpvp:animals/deer_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:font",
-      "prefix": "cpvp:font/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/dog_hat",
+      "sprite": "cpvp:animals/dog_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:hats_expansion",
-      "prefix": "cpvp:hats_expansion/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/dolphin_hat",
+      "sprite": "cpvp:animals/dolphin_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:hud",
-      "prefix": "cpvp:hud/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/duck_hat",
+      "sprite": "cpvp:animals/duck_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:items",
-      "prefix": "cpvp:items/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/elephant_hat",
+      "sprite": "cpvp:animals/elephant_hat"
     },
     {
-      "type": "directory",
-      "source": "cpvp:required",
-      "prefix": "cpvp:required/"
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/frog_hat",
+      "sprite": "cpvp:animals/frog_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/lion_hat",
+      "sprite": "cpvp:animals/lion_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/monkey_hat",
+      "sprite": "cpvp:animals/monkey_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/panda_hat",
+      "sprite": "cpvp:animals/panda_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/pig_hat",
+      "sprite": "cpvp:animals/pig_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/rabbit_hat",
+      "sprite": "cpvp:animals/rabbit_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/red_panda_hat",
+      "sprite": "cpvp:animals/red_panda_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/sheep_hat",
+      "sprite": "cpvp:animals/sheep_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:animals/turtle_hat",
+      "sprite": "cpvp:animals/turtle_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:border/border_inner",
+      "sprite": "cpvp:border/border_inner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:border/border_outer",
+      "sprite": "cpvp:border/border_outer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:border/square_border_inner",
+      "sprite": "cpvp:border/square_border_inner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:border/square_border_outer",
+      "sprite": "cpvp:border/square_border_outer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/0",
+      "sprite": "cpvp:characters/0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/1",
+      "sprite": "cpvp:characters/1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/2",
+      "sprite": "cpvp:characters/2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/3",
+      "sprite": "cpvp:characters/3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/4",
+      "sprite": "cpvp:characters/4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/5",
+      "sprite": "cpvp:characters/5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/6",
+      "sprite": "cpvp:characters/6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/7",
+      "sprite": "cpvp:characters/7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/8",
+      "sprite": "cpvp:characters/8"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/9",
+      "sprite": "cpvp:characters/9"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:characters/hash",
+      "sprite": "cpvp:characters/hash"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture",
+      "sprite": "cpvp:custom/shizuart_furnitures/distributeur/distributeur_cosmetiques_texture"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:entity/chicken",
+      "sprite": "cpvp:entity/chicken"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/antlers",
+      "sprite": "cpvp:exlr8_cosmetics/antlers"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/apple_arrow",
+      "sprite": "cpvp:exlr8_cosmetics/apple_arrow"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/army_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/army_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/astronaut_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/astronaut_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/beanie",
+      "sprite": "cpvp:exlr8_cosmetics/beanie"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/bee",
+      "sprite": "cpvp:exlr8_cosmetics/bee"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/boba_tea",
+      "sprite": "cpvp:exlr8_cosmetics/boba_tea"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/boombox",
+      "sprite": "cpvp:exlr8_cosmetics/boombox"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/bucket_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/bucket_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/burger",
+      "sprite": "cpvp:exlr8_cosmetics/burger"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/calibration_ruler",
+      "sprite": "cpvp:exlr8_cosmetics/calibration_ruler"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/cardboard_crown",
+      "sprite": "cpvp:exlr8_cosmetics/cardboard_crown"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/cat_ears",
+      "sprite": "cpvp:exlr8_cosmetics/cat_ears"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/chef_hat",
+      "sprite": "cpvp:exlr8_cosmetics/chef_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/crab",
+      "sprite": "cpvp:exlr8_cosmetics/crab"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/crystal_crown",
+      "sprite": "cpvp:exlr8_cosmetics/crystal_crown"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/deep_sea_diver",
+      "sprite": "cpvp:exlr8_cosmetics/deep_sea_diver"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/devil_horns",
+      "sprite": "cpvp:exlr8_cosmetics/devil_horns"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/end_crystal_hat",
+      "sprite": "cpvp:exlr8_cosmetics/end_crystal_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/end_crystal_hat_caged",
+      "sprite": "cpvp:exlr8_cosmetics/end_crystal_hat_caged"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/firefly_jar",
+      "sprite": "cpvp:exlr8_cosmetics/firefly_jar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/fishbowl",
+      "sprite": "cpvp:exlr8_cosmetics/fishbowl"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/flower_crown",
+      "sprite": "cpvp:exlr8_cosmetics/flower_crown"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/football_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/football_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/fox",
+      "sprite": "cpvp:exlr8_cosmetics/fox"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/gas_mask",
+      "sprite": "cpvp:exlr8_cosmetics/gas_mask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/halo",
+      "sprite": "cpvp:exlr8_cosmetics/halo"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/headphones",
+      "sprite": "cpvp:exlr8_cosmetics/headphones"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/knight_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/knight_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/loading_spinner",
+      "sprite": "cpvp:exlr8_cosmetics/loading_spinner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/miner_hat",
+      "sprite": "cpvp:exlr8_cosmetics/miner_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/orbiting_moon",
+      "sprite": "cpvp:exlr8_cosmetics/orbiting_moon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/party_cone",
+      "sprite": "cpvp:exlr8_cosmetics/party_cone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/pilot_cap",
+      "sprite": "cpvp:exlr8_cosmetics/pilot_cap"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/pizza_slice",
+      "sprite": "cpvp:exlr8_cosmetics/pizza_slice"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/plague_doctor",
+      "sprite": "cpvp:exlr8_cosmetics/plague_doctor"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/police_cap",
+      "sprite": "cpvp:exlr8_cosmetics/police_cap"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/propeller_cap",
+      "sprite": "cpvp:exlr8_cosmetics/propeller_cap"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/radar_dish",
+      "sprite": "cpvp:exlr8_cosmetics/radar_dish"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/rain_cloud",
+      "sprite": "cpvp:exlr8_cosmetics/rain_cloud"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/saturn_rings",
+      "sprite": "cpvp:exlr8_cosmetics/saturn_rings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/shark_hat",
+      "sprite": "cpvp:exlr8_cosmetics/shark_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/snail_shell",
+      "sprite": "cpvp:exlr8_cosmetics/snail_shell"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/snorkel_mask",
+      "sprite": "cpvp:exlr8_cosmetics/snorkel_mask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/snow_globe",
+      "sprite": "cpvp:exlr8_cosmetics/snow_globe"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/soap_bubble",
+      "sprite": "cpvp:exlr8_cosmetics/soap_bubble"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/sushi_roll",
+      "sprite": "cpvp:exlr8_cosmetics/sushi_roll"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/traffic_cone",
+      "sprite": "cpvp:exlr8_cosmetics/traffic_cone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/traffic_light",
+      "sprite": "cpvp:exlr8_cosmetics/traffic_light"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/viking_helmet",
+      "sprite": "cpvp:exlr8_cosmetics/viking_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/vr_headset",
+      "sprite": "cpvp:exlr8_cosmetics/vr_headset"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/welding_mask",
+      "sprite": "cpvp:exlr8_cosmetics/welding_mask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_cosmetics/witch_hat",
+      "sprite": "cpvp:exlr8_cosmetics/witch_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_hats/crown",
+      "sprite": "cpvp:exlr8_hats/crown"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:exlr8_hats/gradcap",
+      "sprite": "cpvp:exlr8_hats/gradcap"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/admin",
+      "sprite": "cpvp:font/icons/admin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/airdrop",
+      "sprite": "cpvp:font/icons/airdrop"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/animated",
+      "sprite": "cpvp:font/icons/animated"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/clock",
+      "sprite": "cpvp:font/icons/clock"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/coins",
+      "sprite": "cpvp:font/icons/coins"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/crown",
+      "sprite": "cpvp:font/icons/crown"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/cr_server_icon",
+      "sprite": "cpvp:font/icons/cr_server_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/host",
+      "sprite": "cpvp:font/icons/host"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/level_up",
+      "sprite": "cpvp:font/icons/level_up"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/media",
+      "sprite": "cpvp:font/icons/media"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/openbarrel",
+      "sprite": "cpvp:font/icons/openbarrel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/openchest",
+      "sprite": "cpvp:font/icons/openchest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/owner",
+      "sprite": "cpvp:font/icons/owner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/premium",
+      "sprite": "cpvp:font/icons/premium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/quality_a",
+      "sprite": "cpvp:font/icons/quality_a"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/quality_b",
+      "sprite": "cpvp:font/icons/quality_b"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/quality_c",
+      "sprite": "cpvp:font/icons/quality_c"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/quality_d",
+      "sprite": "cpvp:font/icons/quality_d"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/quality_f",
+      "sprite": "cpvp:font/icons/quality_f"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/quality_s",
+      "sprite": "cpvp:font/icons/quality_s"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/quest",
+      "sprite": "cpvp:font/icons/quest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_common",
+      "sprite": "cpvp:font/icons/rarity_common"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_dirt",
+      "sprite": "cpvp:font/icons/rarity_dirt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_epic",
+      "sprite": "cpvp:font/icons/rarity_epic"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_exclusive",
+      "sprite": "cpvp:font/icons/rarity_exclusive"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_legendary",
+      "sprite": "cpvp:font/icons/rarity_legendary"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_mythic",
+      "sprite": "cpvp:font/icons/rarity_mythic"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_rare",
+      "sprite": "cpvp:font/icons/rarity_rare"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rarity_uncommon",
+      "sprite": "cpvp:font/icons/rarity_uncommon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/rawlogo",
+      "sprite": "cpvp:font/icons/rawlogo"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/scroll",
+      "sprite": "cpvp:font/icons/scroll"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/skull",
+      "sprite": "cpvp:font/icons/skull"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/staff",
+      "sprite": "cpvp:font/icons/staff"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/star",
+      "sprite": "cpvp:font/icons/star"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/sword",
+      "sprite": "cpvp:font/icons/sword"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/tier1",
+      "sprite": "cpvp:font/icons/tier1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/tier2",
+      "sprite": "cpvp:font/icons/tier2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/tier3",
+      "sprite": "cpvp:font/icons/tier3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/trial",
+      "sprite": "cpvp:font/icons/trial"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/twoswords",
+      "sprite": "cpvp:font/icons/twoswords"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/vip",
+      "sprite": "cpvp:font/icons/vip"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:font/icons/you",
+      "sprite": "cpvp:font/icons/you"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/adventurer_hat",
+      "sprite": "cpvp:hats_expansion/adventurer_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/adventurer_hat_dyed",
+      "sprite": "cpvp:hats_expansion/adventurer_hat_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/amongus_head",
+      "sprite": "cpvp:hats_expansion/amongus_head"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/amongus_head_dyed",
+      "sprite": "cpvp:hats_expansion/amongus_head_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/axolotl_hat",
+      "sprite": "cpvp:hats_expansion/axolotl_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/axolotl_hat_dyed",
+      "sprite": "cpvp:hats_expansion/axolotl_hat_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/baseball_cap",
+      "sprite": "cpvp:hats_expansion/baseball_cap"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/baseball_cap_dyed",
+      "sprite": "cpvp:hats_expansion/baseball_cap_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/cardboard_box",
+      "sprite": "cpvp:hats_expansion/cardboard_box"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/fedora",
+      "sprite": "cpvp:hats_expansion/fedora"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/fedora_dyed",
+      "sprite": "cpvp:hats_expansion/fedora_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/frog_hat",
+      "sprite": "cpvp:hats_expansion/frog_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/frog_hat_dyed",
+      "sprite": "cpvp:hats_expansion/frog_hat_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/hard_hat",
+      "sprite": "cpvp:hats_expansion/hard_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/jellyfish_hat",
+      "sprite": "cpvp:hats_expansion/jellyfish_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/jellyfish_hat_dyed",
+      "sprite": "cpvp:hats_expansion/jellyfish_hat_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/sensei",
+      "sprite": "cpvp:hats_expansion/sensei"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/sensei_dyed",
+      "sprite": "cpvp:hats_expansion/sensei_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/sombrero",
+      "sprite": "cpvp:hats_expansion/sombrero"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/sombrero_dyed",
+      "sprite": "cpvp:hats_expansion/sombrero_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/straw_hat",
+      "sprite": "cpvp:hats_expansion/straw_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/straw_hat_dyed",
+      "sprite": "cpvp:hats_expansion/straw_hat_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/tv_head",
+      "sprite": "cpvp:hats_expansion/tv_head"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/tv_head_dyed",
+      "sprite": "cpvp:hats_expansion/tv_head_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/ufo_hat",
+      "sprite": "cpvp:hats_expansion/ufo_hat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hats_expansion/ufo_hat_dyed",
+      "sprite": "cpvp:hats_expansion/ufo_hat_dyed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-1",
+      "sprite": "cpvp:hud/reboot/reboot-1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-10",
+      "sprite": "cpvp:hud/reboot/reboot-10"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-11",
+      "sprite": "cpvp:hud/reboot/reboot-11"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-12",
+      "sprite": "cpvp:hud/reboot/reboot-12"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-13",
+      "sprite": "cpvp:hud/reboot/reboot-13"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-14",
+      "sprite": "cpvp:hud/reboot/reboot-14"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-2",
+      "sprite": "cpvp:hud/reboot/reboot-2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-3",
+      "sprite": "cpvp:hud/reboot/reboot-3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-4",
+      "sprite": "cpvp:hud/reboot/reboot-4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-5",
+      "sprite": "cpvp:hud/reboot/reboot-5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-6",
+      "sprite": "cpvp:hud/reboot/reboot-6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-7",
+      "sprite": "cpvp:hud/reboot/reboot-7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-8",
+      "sprite": "cpvp:hud/reboot/reboot-8"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/reboot/reboot-9",
+      "sprite": "cpvp:hud/reboot/reboot-9"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/maps/drops",
+      "sprite": "cpvp:hud/maps/drops"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/maps/map2",
+      "sprite": "cpvp:hud/maps/map2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/maps/map3",
+      "sprite": "cpvp:hud/maps/map3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/maps/reference_map_768",
+      "sprite": "cpvp:hud/maps/reference_map_768"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_000",
+      "sprite": "cpvp:hud/br/arrow_000"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_023",
+      "sprite": "cpvp:hud/br/arrow_023"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_045",
+      "sprite": "cpvp:hud/br/arrow_045"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_068",
+      "sprite": "cpvp:hud/br/arrow_068"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_090",
+      "sprite": "cpvp:hud/br/arrow_090"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_113",
+      "sprite": "cpvp:hud/br/arrow_113"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_135",
+      "sprite": "cpvp:hud/br/arrow_135"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_158",
+      "sprite": "cpvp:hud/br/arrow_158"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_180",
+      "sprite": "cpvp:hud/br/arrow_180"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_203",
+      "sprite": "cpvp:hud/br/arrow_203"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_225",
+      "sprite": "cpvp:hud/br/arrow_225"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_248",
+      "sprite": "cpvp:hud/br/arrow_248"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_270",
+      "sprite": "cpvp:hud/br/arrow_270"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_293",
+      "sprite": "cpvp:hud/br/arrow_293"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_315",
+      "sprite": "cpvp:hud/br/arrow_315"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/arrow_338",
+      "sprite": "cpvp:hud/br/arrow_338"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/avatar",
+      "sprite": "cpvp:hud/br/avatar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/eliminated",
+      "sprite": "cpvp:hud/br/eliminated"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/health_bg",
+      "sprite": "cpvp:hud/br/health_bg"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/health_fill",
+      "sprite": "cpvp:hud/br/health_fill"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/marker_self",
+      "sprite": "cpvp:hud/br/marker_self"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/marker_team",
+      "sprite": "cpvp:hud/br/marker_team"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/minimap",
+      "sprite": "cpvp:hud/br/minimap"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/minimap_frame",
+      "sprite": "cpvp:hud/br/minimap_frame"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/minimap_row_0",
+      "sprite": "cpvp:hud/br/minimap_row_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/minimap_row_1",
+      "sprite": "cpvp:hud/br/minimap_row_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/minimap_row_2",
+      "sprite": "cpvp:hud/br/minimap_row_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/minimap_row_3",
+      "sprite": "cpvp:hud/br/minimap_row_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/minimap_row_4",
+      "sprite": "cpvp:hud/br/minimap_row_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:hud/br/team_card",
+      "sprite": "cpvp:hud/br/team_card"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:items/reboot",
+      "sprite": "cpvp:items/reboot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:items/rebootcard",
+      "sprite": "cpvp:items/rebootcard"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:items/totemvoucher4",
+      "sprite": "cpvp:items/totemvoucher4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:items/totemvoucher7",
+      "sprite": "cpvp:items/totemvoucher7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:items/totem_voucher",
+      "sprite": "cpvp:items/totem_voucher"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/arrow_next_icon",
+      "sprite": "cpvp:required/arrow_next_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/arrow_previous_icon",
+      "sprite": "cpvp:required/arrow_previous_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/ascii_offset",
+      "sprite": "cpvp:required/ascii_offset"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/exit_icon",
+      "sprite": "cpvp:required/exit_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/logo",
+      "sprite": "cpvp:required/logo"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/null",
+      "sprite": "cpvp:required/null"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/particle",
+      "sprite": "cpvp:required/particle"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/recipe_showcase",
+      "sprite": "cpvp:required/recipe_showcase"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/recipe_stonecutter",
+      "sprite": "cpvp:required/recipe_stonecutter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/ui/menu_banner",
+      "sprite": "cpvp:required/ui/menu_banner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/ui/menu_items",
+      "sprite": "cpvp:required/ui/menu_items"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "cpvp:required/ui/menu_items_gems",
+      "sprite": "cpvp:required/ui/menu_items_gems"
     },
     {
       "type": "single",

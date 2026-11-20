@@ -6,6 +6,8 @@ import stat
 import zipfile
 from pathlib import Path
 
+from validate_resource_reload import validate_reload_resources
+
 
 PACK_ENTRIES = (
     "assets",
@@ -37,6 +39,7 @@ def pack_files(root: Path):
 def build(root: Path, output: Path) -> None:
     root = root.resolve()
     output = output.resolve()
+    validate_reload_resources(root)
     output.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(
         output,

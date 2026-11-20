@@ -1,8 +1,5 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
-#ifdef GL_ARB_shader_draw_parameters
-#extension GL_ARB_shader_draw_parameters : enable
-#endif
 #include <minecraft:globals.glsl>
 
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
@@ -16,7 +13,6 @@
 layout(location = 0) in vec3 Position;
 layout(location = 1) in vec4 Color;
 layout(location = 2) in vec2 UV0;
-uniform sampler2D Sampler0;
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 layout(location = 3) in ivec2 UV2;
 #endif
@@ -30,21 +26,37 @@ layout(location = 1) out float cylindricalVertexDistance;
 layout(location = 2) out vec4 vertexColor;
 layout(location = 3) out vec2 texCoord0;
 
+uniform sampler2D Sampler0;
+layout(location = 4) flat out int craveHud;
+layout(location = 5) out vec2 craveHudUv;
 
-layout(location = 4) flat out int craveMinimap;
-layout(location = 5) out vec2 craveMapUv;
-
-vec2 crave_text_corner() {
-    int corner = gl_VertexID & 3;
-    if (corner == 0) return vec2(0.0, 0.0);
-    if (corner == 1) return vec2(0.0, 1.0);
-    if (corner == 2) return vec2(1.0, 1.0);
-    return vec2(1.0, 0.0);
-}
-
-int crave_rgb(ivec2 pixel) {
-    ivec3 rgb = ivec3(round(texelFetch(Sampler0, pixel, 0).rgb * 255.0));
-    return (rgb.r << 16) | (rgb.g << 8) | rgb.b;
+// Only generated cravemc:font/hud/* textures contain these corner tags.
+void crave_minimap_vertex() {
+    craveHud = 0;
+    craveHudUv = vec2(0.0);
+    bool gui = abs(ProjMat[3][3] - 1.0) < 0.0001;
+    int red = int(round(Color.r * 255.0));
+    if (!gui || (red != 250 && red != 62)) return;
+    ivec2 size = textureSize(Sampler0, 0);
+    ivec2 pixel = clamp(ivec2(UV0 * vec2(size)), ivec2(0), size - 1);
+    ivec4 tag = ivec4(round(texelFetch(Sampler0, pixel, 0) * 255.0));
+    if (tag.r != 19 || tag.g != 37 || tag.a != 255 || tag.b < 71 || tag.b > 86) return;
+    int code = tag.b - 71;
+    int corner = code & 3;
+    const vec2 corners[4] = vec2[](vec2(0.0), vec2(0.0, 1.0), vec2(1.0), vec2(1.0, 0.0));
+    vec2 local = corners[corner];
+    craveHud = red == 250 ? 1 : 2;
+    craveHudUv = local;
+    // Physical framebuffer pixels: unchanged by GUI Scale, same X/Y scale.
+    float margin = 12.0;
+    float scale = min(2.0, max(0.01, (min(ScreenSize.x, ScreenSize.y) - 2.0 * margin) / 114.0));
+    vec2 origin = vec2(ScreenSize.x - margin - 114.0 * scale, margin);
+    vec2 offset = floor(Color.gb * 255.0 + 0.5);
+    float glyphSize = code < 4 ? 114.0 : (code < 8 ? 14.0 : (code < 12 ? 8.0 : 9.0));
+    vec2 screenPixel = origin + (offset + local * glyphSize) * scale;
+    gl_Position = vec4(screenPixel.x * 2.0 / ScreenSize.x - 1.0,
+                       1.0 - screenPixel.y * 2.0 / ScreenSize.y, -0.995, 1.0);
+    vertexColor = vec4(1.0);
 }
 
 void main() {
@@ -59,80 +71,5 @@ void main() {
 #endif
     texCoord0 = UV0;
 
-    craveMinimap = 0;
-    craveMapUv = vec2(-1.0);
-    int craveHudR = int(Color.r * 255.0 + 0.5);
-    int craveHudG = int(Color.g * 255.0 + 0.5);
-    int craveHudB = int(Color.b * 255.0 + 0.5);
-    int craveHudVertex = gl_VertexID;
-#ifdef GL_ARB_shader_draw_parameters
-    craveHudVertex -= gl_BaseVertexARB;
-#endif
-    craveHudVertex &= 3;
-    const vec2 craveHudCorners[4] = vec2[](vec2(0.0), vec2(0.0, 1.0), vec2(1.0), vec2(1.0, 0.0));
-    vec2 craveHudCorner = craveHudCorners[craveHudVertex];
-
-    bool craveHudRowShadow = craveHudR == 62 && craveHudB == 62 && craveHudG >= 50 && craveHudG <= 59;
-    bool craveHudArrowShadow = craveHudR == 61;
-    if (craveHudRowShadow || craveHudArrowShadow) {
-        vertexColor = vec4(0.0);
-    }
-
-    bool craveHudRow = craveHudR == 248 && craveHudB == 248 && craveHudG >= 200 && craveHudG <= 236;
-    bool craveHudArrow = craveHudR == 244;
-    if (craveHudRow || craveHudArrow) {
-        float craveHudMapSize = min(360.0, min(ScreenSize.x, ScreenSize.y) * 0.25);
-        vec2 craveHudOrigin = vec2(ScreenSize.x - 12.0 - craveHudMapSize, 12.0);
-        vec2 craveHudPixel;
-        if (craveHudRow) {
-            float craveHudRowIndex = float((craveHudG - 200) / 4);
-            craveHudPixel = craveHudOrigin + vec2(
-                    craveHudCorner.x * craveHudMapSize,
-                    (craveHudRowIndex + craveHudCorner.y) * craveHudMapSize / 10.0
-            );
-        } else {
-            float craveHudArrowSize = clamp(craveHudMapSize * 0.08, 14.0, 28.0);
-            vec2 craveHudMarker = vec2(float(craveHudG), float(craveHudB)) * 0.5 / 127.0;
-            craveHudMarker = vec2(4.0) + craveHudMarker * (craveHudMapSize - 8.0);
-            craveHudPixel = craveHudOrigin + craveHudMarker
-                    + (craveHudCorner - vec2(0.5)) * craveHudArrowSize;
-        }
-        vec2 craveHudNdc = vec2(
-                craveHudPixel.x * 2.0 / ScreenSize.x - 1.0,
-                1.0 - craveHudPixel.y * 2.0 / ScreenSize.y
-        );
-        gl_Position = vec4(craveHudNdc, -0.995, 1.0);
-        vertexColor = vec4(1.0);
-        sphericalVertexDistance = 0.0;
-        cylindricalVertexDistance = 0.0;
-    }
-
-    const vec2 mapCorners[4] = vec2[](vec2(0.0), vec2(0.0, 1.0), vec2(1.0), vec2(1.0, 0.0));
-    int mapVertex = gl_VertexID;
-    #ifdef GL_ARB_shader_draw_parameters
-    mapVertex -= gl_BaseVertexARB;
-    #endif
-    mapVertex &= 3;
-    vec2 mapCorner = mapCorners[(mapVertex + 1) & 3];
-    ivec2 atlasSize = textureSize(Sampler0, 0);
-    ivec2 atlasUv = ivec2(UV0 * vec2(atlasSize));
-    ivec2 mapOrigin = atlasUv - ivec2(mapCorner * 128.0);
-    bool craveIsMap = crave_rgb(mapOrigin) == 0xFF0000
-            && crave_rgb(mapOrigin + ivec2(1, 0)) == 0x597D27
-            && crave_rgb(mapOrigin + ivec2(2, 0)) == 0x3737DC;
-    if (craveIsMap) {
-        craveMinimap = 1;
-        craveMapUv = mapCorner * 128.0;
-        float mapSize = min(420.0, min(ScreenSize.x, ScreenSize.y) * 0.36);
-        vec2 pixel = vec2(ScreenSize.x - 18.0 - mapSize + mapCorner.x * mapSize,
-                18.0 + mapCorner.y * mapSize);
-        vec2 ndc = vec2(pixel.x * 2.0 / ScreenSize.x - 1.0,
-                1.0 - pixel.y * 2.0 / ScreenSize.y);
-        gl_Position = vec4(ndc, -0.99, 1.0);
-        vertexColor = vec4(1.0);
-        #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
-        sphericalVertexDistance = 0.0;
-        cylindricalVertexDistance = 0.0;
-        #endif
-    }
+    crave_minimap_vertex();
 }

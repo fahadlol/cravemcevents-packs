@@ -1,96 +1,60 @@
-#version 150
+#version 330
+#moj_import <minecraft:globals.glsl>
 
-#moj_import <fog.glsl>
-#moj_import <types.glsl>
-
-
+#moj_import <minecraft:fog.glsl>
+#moj_import <minecraft:dynamictransforms.glsl>
 
 uniform sampler2D Sampler0;
-uniform float GameTime;
-
-#moj_import <minecraft:dynamictransforms.glsl>
-#moj_import <minecraft:projection.glsl>
 
 in float sphericalVertexDistance;
 in float cylindricalVertexDistance;
-
 in vec4 vertexColor;
 in vec2 texCoord0;
 in vec2 texCoord1;
-in vec4 normal;
-
-in vec2 sCoord;
-in vec3 worldPos;
-
-in vec4 ray_pos1, ray_pos2, ray_pos3, ray_pos4;
-in vec4 abs_pos1, abs_pos2, abs_pos3, abs_pos4;
-in vec3 ray_uv1, ray_uv2;
-in vec3 ray_glPos;
-in vec4 ray_lightMapColor;
-
-in vec2 lodestone_xy;
-in vec3 lodestone_pos;
-in vec3 lodestone_topLeft;
-in vec4 lodestone_position2;
-in vec4 lodestone_position0;
-in vec4 lodestone_position13;
-in vec4 lodestone_color;
-
-#define MAX_DEPTH 1000000
-
-flat in int type;
 
 out vec4 fragColor;
 
-#moj_import <raymarch.glsl>
 
-vec2 mapToRangeMod(vec2 t, vec2 from, vec2 to, vec2 mappedFrom, vec2 mappedTo) {
-    vec2 range = to - from;
-
-    vec2 normalized = fract((t - from) / range);
-
-    return mix(mappedFrom, mappedTo, normalized);
+bool crave_is_storm_texel(vec3 rgb) {
+    return distance(rgb, vec3(251.0, 13.0, 249.0) / 255.0) < 0.08;
 }
 
+float crave_storm_alpha(vec2 uv, float texture_alpha) {
+    // Stripe shape/animation comes from the shared texture, not atlas UVs.
+    float pulse = 0.78 + 0.22 * sin(GameTime * 900.0);
+    return texture_alpha * pulse * 0.72;
+}
+
+vec3 crave_storm_color(vec3 encoded) {
+    vec3 best = vec3(36.0, 200.0, 237.0) / 255.0;
+    float bestDistance = distance(encoded, best);
+    vec3 candidate = vec3(255.0, 64.0, 64.0) / 255.0;
+    float candidateDistance = distance(encoded, candidate);
+    if (candidateDistance < bestDistance) { best = candidate; bestDistance = candidateDistance; }
+    candidate = vec3(80.0, 232.0, 120.0) / 255.0;
+    candidateDistance = distance(encoded, candidate);
+    if (candidateDistance < bestDistance) { best = candidate; bestDistance = candidateDistance; }
+    candidate = vec3(160.0, 96.0, 255.0) / 255.0;
+    candidateDistance = distance(encoded, candidate);
+    if (candidateDistance < bestDistance) { best = candidate; bestDistance = candidateDistance; }
+    candidate = vec3(235.0, 85.0, 232.0) / 255.0;
+    candidateDistance = distance(encoded, candidate);
+    if (candidateDistance < bestDistance) { best = candidate; bestDistance = candidateDistance; }
+    candidate = vec3(53.0, 230.0, 207.0) / 255.0;
+    if (distance(encoded, candidate) < bestDistance) { best = candidate; }
+    return best;
+}
+
+in vec4 craveStormTint;
 void main() {
-    gl_FragDepth = gl_FragCoord.z;
-
-    if (type == TYPE_SQUARE_BORDER || type == TYPE_SQUARE_BORDER_INNER) {
-
-        int primitive = ((gl_PrimitiveID) + int(type == TYPE_SQUARE_BORDER_INNER)) % 2;
-        vec2 topLeft = lodestone_topLeft.xy / lodestone_topLeft.z;
-        vec3 pos0 = lodestone_position0.xyz / lodestone_position0.w;
-        vec3 pos2 = lodestone_position2.xyz / lodestone_position2.w;
-        vec3 pos13 = lodestone_position13.xyz / lodestone_position13.w;
-
-        float height = length((primitive == 0 ? pos0 : pos2)-pos13);
-        float width = length((primitive == 1 ? pos0 : pos2)-pos13);
-
-        ivec2 size = textureSize(Sampler0, 0);
-        vec2 pixel = 1 / vec2(size);
-
-        topLeft.y += pixel.y;
-        vec2 coord = topLeft + fract(mapToRangeMod(lodestone_xy, vec2(0), 1 / vec2(width, height), vec2(0), vec2(1)) + vec2(GameTime*128) * vec2(-1, 1)) * 15.965 / vec2(size);
-        fragColor = texture(Sampler0, coord) * lodestone_color;
-        if (type == TYPE_SQUARE_BORDER_INNER) fragColor = fade_out(fragColor, length(lodestone_pos), 16.0, 64.0);
-
-        if (fragColor.a < 0.1) {
-            discard;
-        }
-        return;
-    } else if (type == TYPE_BORDER) {
-        raymarch(false);
-        return;
-    } else if (type == TYPE_BORDER_INNER) {
-        raymarch(true);
-        return;
-    }
-
-    vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
-    if (color.a < 0.1) {
+    vec4 sampled = texture(Sampler0, texCoord0);
+    bool craveStorm = crave_is_storm_texel(sampled.rgb);
+    vec4 color = craveStorm
+            ? vec4(crave_storm_color(craveStormTint.rgb) * ColorModulator.rgb,
+                    crave_storm_alpha(texCoord0, sampled.a) * ColorModulator.a)
+            : sampled * vertexColor * ColorModulator;
+    if (color.a < (craveStorm ? 0.025 : 0.1)) {
         discard;
     }
-
     fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 }
-

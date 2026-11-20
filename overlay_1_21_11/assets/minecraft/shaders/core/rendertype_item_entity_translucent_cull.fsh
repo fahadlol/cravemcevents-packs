@@ -20,10 +20,9 @@ bool crave_is_storm_texel(vec3 rgb) {
 }
 
 float crave_storm_alpha(vec2 uv, float texture_alpha) {
-    float phase = sin((uv.x + uv.y) * 150.0 - GameTime * 1800.0);
-    float stripe = smoothstep(0.15, 0.70, phase);
+    // Stripe shape/animation comes from the shared texture, not atlas UVs.
     float pulse = 0.78 + 0.22 * sin(GameTime * 900.0);
-    return texture_alpha * stripe * pulse * 0.72;
+    return texture_alpha * pulse * 0.72;
 }
 
 vec3 crave_storm_color(vec3 encoded) {
@@ -46,14 +45,15 @@ vec3 crave_storm_color(vec3 encoded) {
     return best;
 }
 
+in vec4 craveStormTint;
 void main() {
     vec4 sampled = texture(Sampler0, texCoord0);
     bool craveStorm = crave_is_storm_texel(sampled.rgb);
     vec4 color = craveStorm
-            ? vec4(crave_storm_color(vertexColor.rgb) * ColorModulator.rgb,
+            ? vec4(crave_storm_color(craveStormTint.rgb) * ColorModulator.rgb,
                     crave_storm_alpha(texCoord0, sampled.a) * ColorModulator.a)
             : sampled * vertexColor * ColorModulator;
-    if (color.a < 0.1) {
+    if (color.a < (craveStorm ? 0.025 : 0.1)) {
         discard;
     }
     fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);

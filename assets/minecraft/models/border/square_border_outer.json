@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "cpvp:border/square_border_outer"
+    "layer0": "cpvp:border/square_border_outer",
+    "particle": "cpvp:border/square_border_outer"
   }
 }
