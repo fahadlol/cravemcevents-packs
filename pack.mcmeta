@@ -1,9 +1,23 @@
 {
   "pack": {
     "pack_format": 75,
-    "description": "CPvP.events Texture Pack | https://discord.gg/uF3hqfjF29",
+    "description": [
+      {
+        "text": "CraveMC",
+        "color": "yellow",
+        "bold": true
+      },
+      {
+        "text": "\nPack for CraveMC Events",
+        "color": "white",
+        "bold": false
+      }
+    ],
     "min_format": 75,
-    "max_format": [97, 1]
+    "max_format": [
+      97,
+      1
+    ]
   },
   "overlays": {
     "entries": [
@@ -19,13 +33,22 @@
       },
       {
         "directory": "overlay_26_2",
-        "min_format": [88, 0],
-        "max_format": [88, 0]
+        "min_format": [
+          88,
+          0
+        ],
+        "max_format": [
+          88,
+          0
+        ]
       },
       {
         "directory": "overlay_26_3",
         "min_format": 97,
-        "max_format": [97, 1]
+        "max_format": [
+          97,
+          1
+        ]
       }
     ]
   }
